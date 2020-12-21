@@ -16,7 +16,7 @@ I'm Victor Abizeyimana.
 
 **🐱 My Github Data** 
 
-> 🏆 651 Contributions in the Year 2020
+> 🏆 652 Contributions in the Year 2020
  > 
 > 📦 71.4 kB Used in Github's Storage 
  > 
