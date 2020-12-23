@@ -8,8 +8,8 @@ I'm Victor Abizeyimana.
 - ❓ Want to know more about me? You can always contact me via serval social medias!
 
 ## Social media
-[![Twitter Follow](https://img.shields.io/twitter/follow/vicky_abz?color=%231DA1F2&label=Twitter&style=for-the-badge&logo=twitter&logoColor=ffffff)](https://twitter.com/vicky_abz)
-‎‎ [![Personal Website](https://img.shields.io/static/v1?label=visit&message=victor-abz.com&color=yellowgreen&style=for-the-badge)](https://victor-abz.com/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/vicky_abz?color=%231DA1F2&label=Twitter&style=for-the-badge&logo=twitter&logoColor=ffffff)](https://twitter.com/vicky_abz){:target="_blank"}
+‎‎ [![Personal Website](https://img.shields.io/static/v1?label=visit&message=victor-abz.com&color=%235F021F&style=for-the-badge)](https://victor-abz.com/){:target="_blank"}
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
@@ -73,7 +73,7 @@ TypeScript               1 repo              ░░░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 ## Credits
-- The stats are generated using [waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-- The icons/badges are provided by [Shields.io](https://shields.io/)
+- The stats are generated using [waka-readme-stats](https://github.com/anmol098/waka-readme-stats){:target="_blank"}
+- The icons/badges are provided by [Shields.io](https://shields.io/){:target="_blank"}
 
-⭐️ From [> Victor-abz ✌](https://victor-abz.com/)
+⭐️ From [> Victor-abz ✌](https://victor-abz.com/){:target="_blank"}
