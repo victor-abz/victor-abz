@@ -116,7 +116,7 @@ export default function VerticalTabs() {
 	};
 
 	return (
-		<>
+		<div>
 			<Hidden smDown>
 				<Grid className={classes.desktopContainer}>
 					<Grid className={classes.root}>
@@ -214,49 +214,49 @@ export default function VerticalTabs() {
 					</SwipeableViews>
 				</Grid>
 			</Hidden>
-		</>
+		</div>
 	);
 }
 
-VerticalTabs.getTheme = () => ({
-	MuiTabs: {
-		indicator: {
-			display: 'none'
-		}
-	},
-	MuiTab: {
-		root: {
-			position: 'relative',
-			display: 'block',
-			textAlign: 'center',
-			transition: 'all .5s',
-			padding: '10px 15px',
-			color: '#555555',
-			backgroundColor: '#FFFFFF',
-			height: 'auto',
-			opacity: '1',
-			width: '100%',
-			float: 'none',
-			'&$selected': {
-				'&, &:hover': {
-					color: '#FFFFFF',
-					backgroundColor: '#C2961F',
-					boxShadow: '0 10px 16px -6px rgba(138, 106, 19, 0.4)'
-				}
-			}
-		},
-		labelContainer: {
-			padding: '0!important',
-			color: 'inherit'
-		},
-		label: {
-			lineHeight: '24px',
-			textTransform: 'uppercase',
-			fontSize: '12px',
-			fontWeight: '500',
-			position: 'relative',
-			display: 'block',
-			color: 'inherit'
-		}
-	}
-});
+// VerticalTabs.getTheme = () => ({
+// 	MuiTabs: {
+// 		indicator: {
+// 			display: 'none'
+// 		}
+// 	},
+// 	MuiTab: {
+// 		root: {
+// 			position: 'relative',
+// 			display: 'block',
+// 			textAlign: 'center',
+// 			transition: 'all .5s',
+// 			padding: '10px 15px',
+// 			color: '#555555',
+// 			backgroundColor: '#FFFFFF',
+// 			height: 'auto',
+// 			opacity: '1',
+// 			width: '100%',
+// 			float: 'none',
+// 			'&$selected': {
+// 				'&, &:hover': {
+// 					color: '#FFFFFF',
+// 					backgroundColor: '#C2961F',
+// 					boxShadow: '0 10px 16px -6px rgba(138, 106, 19, 0.4)'
+// 				}
+// 			}
+// 		},
+// 		labelContainer: {
+// 			padding: '0!important',
+// 			color: 'inherit'
+// 		},
+// 		label: {
+// 			lineHeight: '24px',
+// 			textTransform: 'uppercase',
+// 			fontSize: '12px',
+// 			fontWeight: '500',
+// 			position: 'relative',
+// 			display: 'block',
+// 			color: 'inherit'
+// 		}
+// 	}
+// });
