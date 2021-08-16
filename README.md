@@ -44,16 +44,13 @@ I'm Victor Abizeyimana.
 ⌚︎ Time Zone: Africa/Kigali
 
 💬 Programming Languages: 
-Python                   40 mins             █████████████████████░░░░   85.66% 
-JSON                     6 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.66% 
-Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.23% 
-JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.45%
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  47 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      47 mins             █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
@@ -70,7 +67,7 @@ CSS                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 15/08/2021
+ Last Updated on 16/08/2021
 <!--END_SECTION:waka-->
 
 ## Credits
