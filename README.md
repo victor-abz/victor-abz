@@ -15,11 +15,11 @@ I'm Victor Abizeyimana.
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
-**🐱 My Github Data** 
+**🐱 My GitHub Data** 
 
-> 🏆 1,419 Contributions in the Year 2021
+> 🏆 1,420 Contributions in the Year 2021
  > 
-> 📦 270.4 kB Used in Github's Storage 
+> 📦 270.4 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -30,9 +30,9 @@ I'm Victor Abizeyimana.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning    234 commits    ██████░░░░░░░░░░░░░░░░░░░   25.52% 
-🌆 Daytime    347 commits    █████████░░░░░░░░░░░░░░░░   37.84% 
-🌃 Evening    325 commits    ████████░░░░░░░░░░░░░░░░░   35.44% 
+🌞 Morning    234 commits    ██████░░░░░░░░░░░░░░░░░░░   25.49% 
+🌆 Daytime    347 commits    █████████░░░░░░░░░░░░░░░░   37.8% 
+🌃 Evening    326 commits    █████████░░░░░░░░░░░░░░░░   35.51% 
 🌙 Night      11 commits     ░░░░░░░░░░░░░░░░░░░░░░░░░   1.2%
 
 ```
@@ -67,7 +67,7 @@ CSS                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 22/09/2021
+ Last Updated on 23/09/2021
 <!--END_SECTION:waka-->
 
 ## Credits
