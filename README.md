@@ -13,7 +13,7 @@ I'm Victor Abizeyimana.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
 
 **🐱 My GitHub Data** 
 
@@ -67,7 +67,7 @@ CSS                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 28/09/2021
+ Last Updated on 29/09/2021
 <!--END_SECTION:waka-->
 
 ## Credits
