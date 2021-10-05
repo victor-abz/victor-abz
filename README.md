@@ -1,11 +1,15 @@
 ## Hi there 👋
-I'm Victor Abizeyimana.  
+I'm a full-stack software developer and I look forward to designing solutions for your business problems, Build the solutions with you/your team and finally scale the solution.
+
+I will raise your revenues or decrease your costs using solutions based on logic and in most cases, it will involve a computer.
+
+simply, I Design, Build, and Improve.
+
 - 👨‍💻 I'm some sort of a full-stack developer? If [this](https://www.w3schools.com/whatis/whatis_fullstack.asp) description makes me a full-stack developer.
 - 🌱 I provide solutions in Javascript especially with NodeJS and Python. 
-- 🎹 I like Playing piano. >> Buy me one LoL <<
+- 🎹 I like Playing piano.
 - 👯‍♀️ I like working in team.
-- 📫 I am planning to be active on Twitter and Linkedin. I also plan on writting blogs as a mean of community give back. [please check this](https://victor-abz.com/)
-- ❓ Want to know more about me? You can always contact me via serval social medias!
+- ❓ Want to know more about me? You can always contact me via my social medias account!
 
 ## Social media
 [![Twitter Follow](https://img.shields.io/twitter/follow/vicky_abz?color=%231DA1F2&label=Twitter&style=for-the-badge&logo=twitter&logoColor=ffffff)](https://twitter.com/vicky_abz)
