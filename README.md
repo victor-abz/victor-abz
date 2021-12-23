@@ -17,13 +17,13 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
-> 🏆 1,597 Contributions in the Year 2021
+> 🏆 1,598 Contributions in the Year 2021
  > 
-> 📦 296.5 kB Used in GitHub's Storage 
+> 📦 314.3 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -34,10 +34,10 @@ simply, I Design, Build, and Improve.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning    236 commits    ██████░░░░░░░░░░░░░░░░░░░   24.95% 
-🌆 Daytime    343 commits    █████████░░░░░░░░░░░░░░░░   36.26% 
-🌃 Evening    345 commits    █████████░░░░░░░░░░░░░░░░   36.47% 
-🌙 Night      22 commits     ░░░░░░░░░░░░░░░░░░░░░░░░░   2.33%
+🌞 Morning    236 commits    ██████░░░░░░░░░░░░░░░░░░░   24.92% 
+🌆 Daytime    344 commits    █████████░░░░░░░░░░░░░░░░   36.33% 
+🌃 Evening    345 commits    █████████░░░░░░░░░░░░░░░░   36.43% 
+🌙 Night      22 commits     ░░░░░░░░░░░░░░░░░░░░░░░░░   2.32%
 
 ```
 
@@ -71,7 +71,7 @@ CSS                      3 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 22/12/2021
+ Last Updated on 23/12/2021
 <!--END_SECTION:waka-->
 
 ## Credits
