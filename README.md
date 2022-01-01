@@ -21,7 +21,7 @@ simply, I Design, Build, and Improve.
 
 **🐱 My GitHub Data** 
 
-> 🏆 1,609 Contributions in the Year 2021
+> 🏆 0 Contributions in the Year 2022
  > 
 > 📦 314.3 kB Used in GitHub's Storage 
  > 
@@ -71,7 +71,7 @@ CSS                      3 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 31/12/2021
+ Last Updated on 01/01/2022
 <!--END_SECTION:waka-->
 
 ## Credits
