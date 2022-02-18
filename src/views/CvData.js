@@ -2,10 +2,10 @@ export const CVData = {
 	personalData: {
 		name: 'Abizeyimana Victor',
 		title: 'Software Engineer',
-		image: 'victor_Abz.jpg',
+		image: 'victor_Abz.jpeg',
 		contacts: [
 			{ type: 'email', value: 'svicky.shema@gmail.com' },
-			{ type: 'phone', value: '+250 789 032 290' },
+			// { type: 'phone', value: '+250 789 032 290' },
 			{ type: 'location', value: 'Kigali- Rwanda' },
 			{ type: 'website', value: 'inepu.com/victor' },
 			{ type: 'linkedin', value: 'victor-abizeyimana-6a710910a/' },
@@ -19,7 +19,7 @@ export const CVData = {
 			title: 'Career Profile',
 			content:
 				// eslint-disable-next-line max-len
-				'Creative Software engineer, Graphic designer and an ambitious problem solver for online businesses.  Victor has a keen interest in technology, mobile applications and user experience. He is equipped with innovative ideas and a unique approach to developing designs for online websites, video, and advertising. Solid understanding of marketing principles and advertising techniques. Great attention to detail and a talent for creating great UX. Victor is an Enthusiastic team player who is committed to delivering top results on time and within the budget.',
+				'A problem-solving software engineer with over 6 years of experience developing financial software in a variety of industries, primarily finance and government services. I am driven to collaborate with remote and local teams all over the world to design, build, and continuously improve processes using scalable solutions. \nsimply, I Collaborate, Design, Build, and Improve.',
 			icon: 'usertie'
 		},
 		{

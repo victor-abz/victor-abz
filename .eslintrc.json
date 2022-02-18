@@ -17,7 +17,7 @@
     "parserOptions": {
         "ecmaFeatures": {
             "globalReturn": true,
-            "impliedStrict": true,
+            "impliedStrict": false,
             "jsx": true,
             "arrowFunction": true
         },

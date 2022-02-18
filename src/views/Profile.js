@@ -1,17 +1,15 @@
 /* eslint-disable max-len */
 /* eslint-disable react/jsx-one-expression-per-line */
-import React from 'react';
-import { makeStyles } from '@material-ui/styles';
-import { Avatar, Button, Grid, Hidden, ListItemIcon, Paper, Typography } from '@material-ui/core';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
+import { Avatar, Button, Grid, Hidden, Paper, Typography } from '@material-ui/core';
 import Divider from '@material-ui/core/Divider';
+import IconButton from '@material-ui/core/IconButton';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
-import CallIcon from '@material-ui/icons/Call';
-import HomeIcon from '@material-ui/icons/Home';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import TwitterIcon from '@material-ui/icons/Twitter';
+import { makeStyles } from '@material-ui/styles';
+import React from 'react';
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -42,6 +40,11 @@ const useStyles = makeStyles(theme => ({
 	},
 	bio: {
 		margin: theme.spacing(0, 3)
+	},
+	contactInfo: {
+		[theme.breakpoints.down('sm')]: {
+			marginTop: theme.spacing(1)
+		}
 	},
 	divider: {
 		backgroundColor: 'white',
@@ -93,16 +96,17 @@ const Profile = () => {
 
 	const user = {
 		name: 'Abizeyimana Victor',
-		bio: 'Software Engineer',
-		avatar: 'victor_Abz.jpg',
+		bio: 'Fullstack Software developer with Javascript and Python.',
+		avatar: 'victor_Abz.jpeg',
 		cover: '/DSC_4677.jpg',
-		connectedStatus: 'not_connected',
+		// connectedStatus: 'not_connected',
 		email: 'svicky.shema@gmail.com',
 		phone: '+250 789 032 290',
+		linkedin: 'victor-abizeyimana-6a710910a/',
 		address: 'Kigali, Rwanda',
 		twitter: '@vicky-abz',
 		description:
-			"Software Developer | Graphic designer | Video Editor | Guitarist | Pianist.I 'd love to discus with you on how I can improve your business."
+			'A problem-solving software engineer with over 6 years of experience developing financial software in a variety of industries, primarily finance and government services. I am driven to collaborate with remote and local teams all over the world to design, build, and continuously improve processes using scalable solutions.\nsimply, I Collaborate, Design, Build, and Improve.'
 	};
 
 	return (
@@ -172,7 +176,7 @@ const Profile = () => {
 						</Grid>
 					</Hidden>
 				</Grid>
-				<Grid item md={4} sm={12} container className={classes.bio}>
+				<Grid item md={8} sm={12} className={classes.bio}>
 					<Grid item>
 						<Hidden smDown>
 							<Typography
@@ -189,40 +193,17 @@ const Profile = () => {
 						</Hidden>
 						<Typography>{user.description}</Typography>
 					</Grid>
-				</Grid>
-				<Grid
-					item
-					md={4}
-					sm={12}
-					container
-					style={{ background: 'url(/personal-info-sep.png) no-repeat left top' }}
-				>
-					<List className={classes.root}>
-						<ListItem>
-							<ListItemIcon>
-								<EmailIcon />
-							</ListItemIcon>
-							<ListItemText primary={`${user.email}`} />
-						</ListItem>
-						<ListItem>
-							<ListItemIcon>
-								<CallIcon />
-							</ListItemIcon>
-							<ListItemText primary={`${user.phone}`} />
-						</ListItem>
-						<ListItem>
-							<ListItemIcon>
-								<HomeIcon />
-							</ListItemIcon>
-							<ListItemText primary={`${user.address}`} />
-						</ListItem>
-						<ListItem>
-							<ListItemIcon>
-								<TwitterIcon />
-							</ListItemIcon>
-							<ListItemText primary={`${user.twitter}`} />
-						</ListItem>
-					</List>
+					<Grid container>
+						<IconButton aria-label='linkedin'>
+							<LinkedInIcon />
+						</IconButton>
+						<IconButton aria-label='email'>
+							<EmailIcon />
+						</IconButton>
+						<IconButton aria-label='github'>
+							<GitHubIcon />
+						</IconButton>
+					</Grid>
 				</Grid>
 			</Grid>
 		</div>

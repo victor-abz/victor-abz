@@ -1,12 +1,12 @@
 /* eslint-disable max-len */
-import React from 'react';
+import { AppBar, Box, Grid, Hidden, Tabs, Typography } from '@material-ui/core';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Tab from '@material-ui/core/Tab';
+import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
-import { AppBar, Box, Tabs, Grid, Hidden, Typography } from '@material-ui/core';
-import Profile from './Profile';
-import Portfolio from './Portfolio';
 import Contact from './Contact';
+import Portfolio from './Portfolio';
+import Profile from './Profile';
 import Example from './Resume';
 
 function TabPanel(props) {

@@ -10,21 +10,6 @@ import useSettings from './theme/hooks/useSettings';
 import { createTheme } from './theme';
 import Toggle from './components/Toggler';
 
-// const muiBaseTheme = createMuiTheme();
-
-// const theme = createMuiTheme({
-// 	palette: {
-// 		type: 'dark',
-// 		primary: {
-// 			main: '#0074D9'
-// 		},
-// 		secondary: {
-// 			main: '#4caf50'
-// 		}
-// 	},
-// 	overrides: Intro.getTheme(muiBaseTheme)
-// });
-
 const App = () => {
 	const { settings } = useSettings();
 	return (
