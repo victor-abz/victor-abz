@@ -46,7 +46,7 @@ function MobileTabPanel(props) {
 			{...other}
 		>
 			{value === index && (
-				<Box style={{ backgroundColor: '#C2961F' }} p={3}>
+				<Box style={{ backgroundColor: '#2BB673' }} p={3}>
 					{children}
 				</Box>
 			)}
@@ -94,7 +94,7 @@ const useStyles = makeStyles(theme => ({
 		textAlign: 'left'
 	},
 	profileContainer: {
-		// backgroundColor: '#C2961F',
+		// backgroundColor: '#2BB673',
 		minHeight: '90vh',
 		justifyContent: 'center',
 		display: 'flex',
@@ -133,7 +133,7 @@ export default function VerticalTabs() {
 							{/* <Tab label='Portfolio' {...a11yProps(2)} />
 							<Tab label='Contact' {...a11yProps(3)} /> */}
 						</Tabs>
-						<TabPanel value={value} index={0} style={{ width: '100%', backgroundColor: '#C2961F' }}>
+						<TabPanel value={value} index={0} style={{ width: '100%', backgroundColor: '#2BB673' }}>
 							<Profile />
 						</TabPanel>
 						<TabPanel
@@ -143,7 +143,7 @@ export default function VerticalTabs() {
 								width: '100%',
 								maxHeight: '70vh',
 								overflow: 'scroll',
-								backgroundColor: '#C2961F'
+								backgroundColor: '#2BB673'
 							}}
 						>
 							<Example />
@@ -155,7 +155,7 @@ export default function VerticalTabs() {
 								width: '100%',
 								maxHeight: '70vh',
 								overflow: 'scroll',
-								backgroundColor: '#C2961F'
+								backgroundColor: '#2BB673'
 							}}
 						>
 							<Portfolio />
@@ -167,7 +167,7 @@ export default function VerticalTabs() {
 								width: '100%',
 								maxHeight: '70vh',
 								overflow: 'scroll',
-								backgroundColor: '#C2961F'
+								backgroundColor: '#2BB673'
 							}}
 						>
 							<Contact />
@@ -240,7 +240,7 @@ export default function VerticalTabs() {
 // 			'&$selected': {
 // 				'&, &:hover': {
 // 					color: '#FFFFFF',
-// 					backgroundColor: '#C2961F',
+// 					backgroundColor: '#2BB673',
 // 					boxShadow: '0 10px 16px -6px rgba(138, 106, 19, 0.4)'
 // 				}
 // 			}

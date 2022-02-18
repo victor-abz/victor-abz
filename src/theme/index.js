@@ -1,10 +1,10 @@
 /* eslint-disable no-console */
 /* eslint-disable import/prefer-default-export */
-import _ from 'lodash';
 import { colors, createMuiTheme, responsiveFontSizes } from '@material-ui/core';
-import typography from './typography';
+import _ from 'lodash';
 import { softShadows, strongShadows } from './shadows';
 import { THEMES } from './themes';
+import typography from './typography';
 
 const baseConfig = {
 	direction: 'ltr',
@@ -62,7 +62,7 @@ const themeConfigs = [
 					'&$selected': {
 						'&, &:hover': {
 							color: '#FFFFFF',
-							backgroundColor: '#C2961F',
+							backgroundColor: '#2BB673',
 							boxShadow: '0 10px 16px -6px rgba(138, 106, 19, 0.4)'
 						}
 					}
@@ -137,7 +137,7 @@ const themeConfigs = [
 					'&$selected': {
 						'&, &:hover': {
 							color: '#FFFFFF',
-							backgroundColor: '#C2961F',
+							backgroundColor: '#2BB673',
 							boxShadow: '0 10px 16px -6px rgba(138, 106, 19, 0.4)'
 						}
 					}
@@ -217,7 +217,7 @@ const themeConfigs = [
 		// 			'&$selected': {
 		// 				'&, &:hover': {
 		// 					color: '#FFFFFF',
-		// 					backgroundColor: '#C2961F',
+		// 					backgroundColor: '#2BB673',
 		// 					boxShadow: '0 10px 16px -6px rgba(138, 106, 19, 0.4)'
 		// 				}
 		// 			}
