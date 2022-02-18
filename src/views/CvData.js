@@ -7,7 +7,7 @@ export const CVData = {
 			{ type: 'email', value: 'svicky.shema@gmail.com' },
 			// { type: 'phone', value: '+250 789 032 290' },
 			{ type: 'location', value: 'Kigali- Rwanda' },
-			{ type: 'website', value: 'inepu.com/victor' },
+			// { type: 'website', value: 'victor-abz.com/' },
 			{ type: 'linkedin', value: 'victor-abizeyimana-6a710910a/' },
 			{ type: 'twitter', value: 'www.victor_abz' },
 			{ type: 'github', value: 'github.com/victor-abz' }
