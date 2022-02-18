@@ -3,6 +3,7 @@ import { AppBar, Box, Grid, Hidden, Tabs, Typography } from '@material-ui/core';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Tab from '@material-ui/core/Tab';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SwipeableViews from 'react-swipeable-views';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
@@ -130,6 +131,14 @@ export default function VerticalTabs() {
 						>
 							<Tab label='About' {...a11yProps(0)} />
 							<Tab label='Resume' {...a11yProps(1)} />
+							{/* <Tab label='Blog' {...a11yProps(1)} /> */}
+							<Tab
+								label='Blog'
+								{...a11yProps(4)}
+								component={Link}
+								to={{ pathname: 'https://blog.victor-abz.com/' }}
+								target='_blank'
+							/>
 							{/* <Tab label='Portfolio' {...a11yProps(2)} />
 							<Tab label='Contact' {...a11yProps(3)} /> */}
 						</Tabs>
@@ -171,6 +180,18 @@ export default function VerticalTabs() {
 							}}
 						>
 							<Contact />
+						</TabPanel>
+						<TabPanel
+							value={value}
+							index={4}
+							style={{
+								width: '100%',
+								maxHeight: '70vh',
+								overflow: 'scroll',
+								backgroundColor: '#2BB673'
+							}}
+						>
+							<Link to={{ pathname: 'https://blog.victor-abz.com/' }} target='_blank' />
 						</TabPanel>
 					</Grid>
 				</Grid>
