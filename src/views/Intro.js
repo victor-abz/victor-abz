@@ -130,8 +130,8 @@ export default function VerticalTabs() {
 						>
 							<Tab label='About' {...a11yProps(0)} />
 							<Tab label='Resume' {...a11yProps(1)} />
-							<Tab label='Portfolio' {...a11yProps(2)} />
-							<Tab label='Contact' {...a11yProps(3)} />
+							{/* <Tab label='Portfolio' {...a11yProps(2)} />
+							<Tab label='Contact' {...a11yProps(3)} /> */}
 						</Tabs>
 						<TabPanel value={value} index={0} style={{ width: '100%', backgroundColor: '#C2961F' }}>
 							<Profile />
@@ -188,8 +188,8 @@ export default function VerticalTabs() {
 						>
 							<Tab label='About' {...mobileA11yProps(0)} />
 							<Tab label='Resume' {...mobileA11yProps(1)} />
-							<Tab label='Portfolio' {...mobileA11yProps(2)} />
-							<Tab label='Contact' {...mobileA11yProps(3)} />
+							{/* <Tab label='Portfolio' {...mobileA11yProps(2)} />
+							<Tab label='Contact' {...mobileA11yProps(3)} /> */}
 						</Tabs>
 					</AppBar>
 					<SwipeableViews
@@ -205,12 +205,12 @@ export default function VerticalTabs() {
 						<MobileTabPanel value={value} index={1} dir={theme.direction}>
 							<Example />
 						</MobileTabPanel>
-						<MobileTabPanel value={value} index={2} dir={theme.direction}>
+						{/* <MobileTabPanel value={value} index={2} dir={theme.direction}>
 							<Portfolio />
 						</MobileTabPanel>
 						<MobileTabPanel value={value} index={3} dir={theme.direction}>
 							<Contact />
-						</MobileTabPanel>
+						</MobileTabPanel> */}
 					</SwipeableViews>
 				</Grid>
 			</Hidden>
