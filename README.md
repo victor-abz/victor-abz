@@ -17,7 +17,7 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-819%20hrs%2039%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-19-blue)
 
@@ -33,33 +33,6 @@ simply, I Design, Build, and Improve.
  > 
 > 🔑 34 Private Repositories  
  > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning    220 commits    ██████░░░░░░░░░░░░░░░░░░░   23.76% 
-🌆 Daytime    322 commits    ████████░░░░░░░░░░░░░░░░░   34.77% 
-🌃 Evening    352 commits    █████████░░░░░░░░░░░░░░░░   38.01% 
-🌙 Night      32 commits     ░░░░░░░░░░░░░░░░░░░░░░░░░   3.46%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-⌚︎ Time Zone: Africa/Kigali
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-
-```
-
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -73,7 +46,7 @@ CSS                      3 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 04/09/2022 04:08:25 UTC
+ Last Updated on 05/09/2022 04:19:33 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
