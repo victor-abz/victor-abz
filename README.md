@@ -19,19 +19,19 @@ simply, I Design, Build, and Improve.
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-819%20hrs%2039%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-12-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
-> 🏆 289 Contributions in the Year 2022
+> 🏆 290 Contributions in the Year 2022
  > 
-> 📦 379.9 kB Used in GitHub's Storage 
+> 📦 439.7 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
 > 📜 127 Public Repositories 
  > 
-> 🔑 36 Private Repositories  
+> 🔑 37 Private Repositories  
  > 
 **I'm an Early 🐤** 
 
@@ -63,17 +63,17 @@ No Activity Tracked This Week
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               30 repos            ██████████░░░░░░░░░░░░░░░   41.1% 
-Python                   20 repos            ██████░░░░░░░░░░░░░░░░░░░   27.4% 
-HTML                     7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   9.59% 
-TypeScript               7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   9.59% 
-CSS                      3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   4.11%
+JavaScript               30 repos            ██████████░░░░░░░░░░░░░░░   40.54% 
+Python                   20 repos            ██████░░░░░░░░░░░░░░░░░░░   27.03% 
+HTML                     7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   9.46% 
+TypeScript               7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   9.46% 
+CSS                      3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   4.05%
 
 ```
 
 
 
- Last Updated on 20/10/2022 04:02:54 UTC
+ Last Updated on 21/10/2022 03:47:00 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
