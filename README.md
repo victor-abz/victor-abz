@@ -19,7 +19,7 @@ simply, I Design, Build, and Improve.
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-819%20hrs%2039%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
@@ -73,7 +73,7 @@ CSS                      3 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 18/01/2023 02:42:41 UTC
+ Last Updated on 19/01/2023 02:44:37 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
