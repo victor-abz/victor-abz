@@ -32,7 +32,7 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• Spear heading the implementation of the first fully digital of its kind SACCO in Rwanda by implementing advanced customer onboarding module and digital channels such as mobile banking via USSD, Mobile Application, Internet Banking, and ATM Integrations.  
-						 • Lead the development and deployment of BNR Electronic Datawarehouse, oversee daily reporting and RIPPS integration for real time settlement`,
+						 \n• Lead the development and deployment of BNR Electronic Datawarehouse, oversee daily reporting and RIPPS integration for real time settlement`,
 					companyWebSite: 'https://mugangasacco.rw',
 					companyMeta: '',
 					datesBetween: '2022.08 - Present'
@@ -44,10 +44,10 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`•  Conducted GRM (Grievance Redress Mechanism) pilot preparation across the country and evaluated the pilot's progress through weekly reports and communication.
-						• Supported the task team on the customization and deployment of the GRM (Grievance Redress Mechanism) system. This includes doing regression tests, Usability tests, and providing reports.
-						• Collected feedback from the end-users on usability tests and piloting functionalities planned by the Task Team.
-						• Delivered customized training (including responsibility for training preparation and logistics) to local audiences with/without IT skills in remote areas of Rwanda. This includes the support in the development of training materials for various categories of end-user.
-						• Customize training materials for local audiences as necessary`,
+						\n• Supported the task team on the customization and deployment of the GRM (Grievance Redress Mechanism) system. This includes doing regression tests, Usability tests, and providing reports.
+						\n• Collected feedback from the end-users on usability tests and piloting functionalities planned by the Task Team.
+						\n• Delivered customized training (including responsibility for training preparation and logistics) to local audiences with/without IT skills in remote areas of Rwanda. This includes the support in the development of training materials for various categories of end-user.
+						\n• Customize training materials for local audiences as necessary`,
 					companyWebSite: 'https://www.worldbank.org/',
 					companyMeta: '',
 					datesBetween: '2022.02 - 2023-06'
@@ -60,14 +60,14 @@ export const CVData = {
 						// eslint-disable-next-line max-len
 						`
 						• Preparation of IT strategy for 2022 -2024 and Digital financial service plan from 2022 to 2024
-						• Setup IT Infrastructure for the new MUGANGA SACCO Office
-						• Formulated internal IT procedures and strategies for various IT processes, and Guides for various IT tools used in the organization
-						• Successful deployment of Internet web portal that features a thorough loan origination process management and MUGANGA SACCO’s members KYC management.
-						• Proper management of IT infrastructures and making sure they are secure and safe by designing solid Cybersecurity and disaster recovery policies.
-						• Design, test and deploy a loan appraisal module (Loan eligibility) for the Web portal that assists in the primary evaluation of loans through the web portal.
-						• Deployment of internal project management software that helps in assigning tasks to various members of the team with the capability to specify the deadline and other required items.
-						• Management of core banking software project implementation by liaising with external vendors and setting a clear expectation
-						• Managed all aspects of the project, from development to delivery, and successfully delivered the project on time and within budget.
+						\n• Setup IT Infrastructure for the new MUGANGA SACCO Office
+						\n• Formulated internal IT procedures and strategies for various IT processes, and Guides for various IT tools used in the organization
+						\n• Successful deployment of Internet web portal that features a thorough loan origination process management and MUGANGA SACCO’s members KYC management.
+						\n• Proper management of IT infrastructures and making sure they are secure and safe by designing solid Cybersecurity and disaster recovery policies.
+						\n• Design, test and deploy a loan appraisal module (Loan eligibility) for the Web portal that assists in the primary evaluation of loans through the web portal.
+						\n• Deployment of internal project management software that helps in assigning tasks to various members of the team with the capability to specify the deadline and other required items.
+						\n• Management of core banking software project implementation by liaising with external vendors and setting a clear expectation
+						\n• Managed all aspects of the project, from development to delivery, and successfully delivered the project on time and within budget.
 						`,
 					companyWebSite: 'http://mugangasacco.rw',
 					companyMeta: '',
@@ -80,10 +80,10 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• Led the development and rollout of a new software product, working with a cross-functional team to design, build, test, and deploy the product.
-						• Wrote efficient, reliable, and easy to maintain codes, and collaborated with other developers to share knowledge and expertise.
-						• Troubleshot and fixed software defects, and provided support to users.
-						• Acted as a mentor to junior developers, sharing knowledge and helping them to grow and develop their skills.
-						• Contributed to the development of company standards and best practices.`,
+						\n• Wrote efficient, reliable, and easy to maintain codes, and collaborated with other developers to share knowledge and expertise.
+						\n• Troubleshot and fixed software defects, and provided support to users.
+						\n• Acted as a mentor to junior developers, sharing knowledge and helping them to grow and develop their skills.
+						\n• Contributed to the development of company standards and best practices.`,
 					companyWebSite: 'http://benefactors.io',
 					companyMeta: '',
 					datesBetween: '2020.07 - 2022.02'
@@ -95,8 +95,8 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• Developed a system for managing company travel. This involves travel requests, budget preparation, and approval by managers.
-						• Implemented a scalable solution for handling user authentication and authorization with OAuth2 and a custom JSON web token.
-						• Developed a microservice architecture for a new product line in Node.js and React that handles all the communication with backend services.`,
+						\n• Implemented a scalable solution for handling user authentication and authorization with OAuth2 and a custom JSON web token.
+						\n• Developed a microservice architecture for a new product line in Node.js and React that handles all the communication with backend services.`,
 					companyWebSite: 'http://andela.com',
 					companyMeta: '',
 					datesBetween: '2019.11 - 2020-04'
@@ -116,8 +116,8 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• Conceptualized, designed, and developed a Learn Management System with Integrated Lesson plan and certification.
-						• Designed, Deployed, and monitored a software hosting system managing more than 5TB of traffic daily.
-						• Deployed a content delivery network for high-traffic websites.`,
+						\n• Designed, Deployed, and monitored a software hosting system managing more than 5TB of traffic daily.
+						\n• Deployed a content delivery network for high-traffic websites.`,
 					companyWebSite: 'http://inepu.com',
 					companyMeta: '',
 					datesBetween: '2015.07 - 2020-12'
@@ -139,10 +139,10 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• I’ve extended solutions to various agencies, design studios and also taken on solo projects. I improved processes and provided solutions primarily in the realms of Software Development, design, Communication Materials such as Videos and graphics, and project management.
-						• Wrote functional and design specifications for various software products and developed prototypes as well as performed unit testing.
-						• Managed software development life cycle and conducted risk assessment and mitigation.
-						• Graphic Design for various institutions.
-						• Social Media management including Search Engine Optimization. This improved the companies ranking on Google and started bringing in traffic for its branch in London (YE Suppliers)`,
+						\n• Wrote functional and design specifications for various software products and developed prototypes as well as performed unit testing.
+						\n• Managed software development life cycle and conducted risk assessment and mitigation.
+						\n• Graphic Design for various institutions.
+						\n• Social Media management including Search Engine Optimization. This improved the companies ranking on Google and started bringing in traffic for its branch in London (YE Suppliers)`,
 					datesBetween: '2017.01 - 2019.10'
 				}
 			]
@@ -158,8 +158,8 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• In 2020, I designed and developed a robust system for benefactors, a non-deposit financial institution. The system equipped benefactors with various modules such as loan applications management, Loan disbursement, monitoring, and fees calculation. The app includes strict validation features and user validation from application approval to the amount being disbursed. It features also rich dashboards on loan performance. As well as a simple AI robot to help track loan applicant performance on external systems such as other outside loans and Public tenders.
-						• I migrated big datasets from the old google sheet-based system to a new system without business disruption and to onboard the team members without a hiccup.
-						• Currently, The project manages more than 2.4 Billion Rwf extended to more than 150 SMEs.`,
+						\n• I migrated big datasets from the old google sheet-based system to a new system without business disruption and to onboard the team members without a hiccup.
+						\n• Currently, The project manages more than 2.4 Billion Rwf extended to more than 150 SMEs.`,
 					// companyWebSite: 'http://hssmag.rw',
 					// companyMeta: '',
 					datesBetween: '2020'
@@ -171,7 +171,7 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• In 2021, I lead a team of developers and project managers in the design and deployment of a Virtual Sales Data Controller(VSDC) for Benefactors. The goal of this project launched an invoicing system that provides a cost-effective tool to enable SMEs to comply with tax regulations requiring EBM(Electronic Billing Machine) invoices on all sales and provide the BeneFactors team with a sales history of SMEs prequalify them for working capital loans.
-						• I led the development team of 4 developers through requirements gathering, design, development, and testing using Agile Methodology. I also ensured that we delivered on time and within budget by conducting necessary scrum ceremonies.`,
+						\n• I led the development team of 4 developers through requirements gathering, design, development, and testing using Agile Methodology. I also ensured that we delivered on time and within budget by conducting necessary scrum ceremonies.`,
 					// companyWebSite: 'http://hssmag.rw',
 					// companyMeta: '',
 					datesBetween: 'Jan 2021 - Present'
@@ -183,8 +183,8 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• In 2020, I designed and developed a robust system for benefactors, a non-deposit financial institution. The system equipped benefactors with various modules such as loan applications management, Loan disbursement, monitoring, and fees calculation. The app includes strict validation features and user validation from application approval to the amount being disbursed. It features also rich dashboards on loan performance. As well as a simple AI robot to help track loan applicant performance on external systems such as other outside loans and Public tenders.
-						• I migrated big datasets from the old google sheet-based system to a new system without business disruption and to onboard the team members without a hiccup.
-						• Currently, The project manages more than 2.4 Billion Rwf extended to more than 150 SMEs.`,
+						\n• I migrated big datasets from the old google sheet-based system to a new system without business disruption and to onboard the team members without a hiccup.
+						\n• Currently, The project manages more than 2.4 Billion Rwf extended to more than 150 SMEs.`,
 					// companyWebSite: 'http://hssmag.rw',
 					// companyMeta: '',
 					datesBetween: 'Nov 2021 - Jan 2022'
@@ -196,8 +196,8 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• Designed a loan management system for PesaChoice. The system extends loans to various employees through an existing Payroll system. I lead a team to design, deploy and maintain the system using agile methodology. Testing the product using Chai, Mocha, and Jest as well automatic deployments using CI/CD.
-						• The loan software actively helps PesaChoice to streamline and automate loan origination, processing, and supervising payments.
-						• The software also helps to keep track of the employee loans and repayment schedules.`,
+						\n• The loan software actively helps PesaChoice to streamline and automate loan origination, processing, and supervising payments.
+						\n• The software also helps to keep track of the employee loans and repayment schedules.`,
 					// companyWebSite: 'http://hssmag.rw',
 					// companyMeta: '',
 					datesBetween: 'Nov 2021 - Jan 2022'
@@ -220,8 +220,8 @@ export const CVData = {
 					description:
 						// eslint-disable-next-line max-len
 						`• I designed and developed an ML-based credit scoring system for PesaChoice. The ML-based system allows PesaChoice to control its risk exposure through the selective allocation of credit based on the statistical analysis of historical customer data.
-						• The system correctly identifies high-risk customers with a high degree of accuracy of around 89%, which helps the company to better manage its credit risk.
-						• The system helps the company to improve its customer service by allowing it to provide credit to more customers. The number of customers served weekly increased by more than 5% since its deployment in January 2022.`,
+						\n• The system correctly identifies high-risk customers with a high degree of accuracy of around 89%, which helps the company to better manage its credit risk.
+						\n• The system helps the company to improve its customer service by allowing it to provide credit to more customers. The number of customers served weekly increased by more than 5% since its deployment in January 2022.`,
 					// companyWebSite: 'http://hssmag.rw',
 					// companyMeta: '',
 					datesBetween: 'Jun 2021 - Dec 2021'
