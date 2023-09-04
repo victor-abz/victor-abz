@@ -6,12 +6,10 @@ export const CVData = {
 		image: 'victor_Abz.jpeg',
 		contacts: [
 			{ type: 'email', value: 'svicky.shema@gmail.com' },
-			// { type: 'phone', value: '+250 789 032 290' },
 			{ type: 'location', value: 'Kigali- Rwanda' },
-			// { type: 'website', value: 'victor-abz.com/' },
-			{ type: 'linkedin', value: 'victor-abizeyimana-6a710910a/' },
-			{ type: 'twitter', value: 'www.victor_abz' },
-			{ type: 'github', value: 'github.com/victor-abz' }
+			{ type: 'linkedin', value: 'https://www.linkedin.com/in/victor-abizeyimana-6a710910a/' },
+			{ type: 'twitter', value: 'https://twitter.com/vicky_abz' },
+			{ type: 'github', value: 'https://github.com/victor-abz' }
 		]
 	},
 	sections: [
@@ -20,7 +18,7 @@ export const CVData = {
 			title: 'Career Profile',
 			content:
 				// eslint-disable-next-line max-len
-				'A problem-solving software engineer with over 6 years of experience developing financial software in a variety of industries, primarily finance and government services. I am driven to collaborate with remote and local teams all over the world to design, build, and continuously improve processes using scalable solutions. \nsimply, I Collaborate, Design, Build, and Improve.',
+				'A problem-solving software engineer with over 6 years of experience developing financial software in a variety of industries, primarily finance and government services. I am driven to collaborate with remote and local teams all over the world to design, build, and continuously improve processes using scalable solutions.  simply, I Collaborate, Design, Build, and Improve.',
 			icon: 'usertie'
 		},
 		{
@@ -29,14 +27,51 @@ export const CVData = {
 			icon: 'archive',
 			items: [
 				{
-					title: 'Software Project Manager',
-					company: 'Ministry of Health',
+					title: 'Director of ICT',
+					company: 'MUGANGA SACCO',
 					description:
 						// eslint-disable-next-line max-len
-						'• Led the development and implementation of a new software system, including requirements gathering, project planning, resource allocation, and quality assurance. \n • Managed all aspects of the project, from development to delivery, and successfully delivered the project on time and within budget.',
-					companyWebSite: 'http://hssmag.rw',
+						`• Spear heading the implementation of the first fully digital of its kind SACCO in Rwanda by implementing advanced customer onboarding module and digital channels such as mobile banking via USSD, Mobile Application, Internet Banking, and ATM Integrations.  
+						 • Lead the development and deployment of BNR Electronic Datawarehouse, oversee daily reporting and RIPPS integration for real time settlement`,
+					companyWebSite: 'https://mugangasacco.rw',
 					companyMeta: '',
-					datesBetween: '2021.07 - Present'
+					datesBetween: '2022.08 - Present'
+					// descriptionTags: ['Scrum', 'Project Management', 'Team Leadership', 'Collaboration']
+				},
+				{
+					title: 'eGRM Technical Support Consultant',
+					company: 'World Bank',
+					description:
+						// eslint-disable-next-line max-len
+						`•  Conducted GRM (Grievance Redress Mechanism) pilot preparation across the country and evaluated the pilot's progress through weekly reports and communication.
+						• Supported the task team on the customization and deployment of the GRM (Grievance Redress Mechanism) system. This includes doing regression tests, Usability tests, and providing reports.
+						• Collected feedback from the end-users on usability tests and piloting functionalities planned by the Task Team.
+						• Delivered customized training (including responsibility for training preparation and logistics) to local audiences with/without IT skills in remote areas of Rwanda. This includes the support in the development of training materials for various categories of end-user.
+						• Customize training materials for local audiences as necessary`,
+					companyWebSite: 'https://www.worldbank.org/',
+					companyMeta: '',
+					datesBetween: '2022.02 - 2023-06'
+					// descriptionTags: ['Scrum', 'Project Management', 'Team Leadership', 'Collaboration']
+				},
+				{
+					title: 'Software Project Manager',
+					company: 'Ministry of Health - Muganga SACCO – Global Health Corps Fellowship ',
+					description:
+						// eslint-disable-next-line max-len
+						`
+						• Preparation of IT strategy for 2022 -2024 and Digital financial service plan from 2022 to 2024
+						• Setup IT Infrastructure for the new MUGANGA SACCO Office
+						• Formulated internal IT procedures and strategies for various IT processes, and Guides for various IT tools used in the organization
+						• Successful deployment of Internet web portal that features a thorough loan origination process management and MUGANGA SACCO’s members KYC management.
+						• Proper management of IT infrastructures and making sure they are secure and safe by designing solid Cybersecurity and disaster recovery policies.
+						• Design, test and deploy a loan appraisal module (Loan eligibility) for the Web portal that assists in the primary evaluation of loans through the web portal.
+						• Deployment of internal project management software that helps in assigning tasks to various members of the team with the capability to specify the deadline and other required items.
+						• Management of core banking software project implementation by liaising with external vendors and setting a clear expectation
+						• Managed all aspects of the project, from development to delivery, and successfully delivered the project on time and within budget.
+						`,
+					companyWebSite: 'http://mugangasacco.rw',
+					companyMeta: '',
+					datesBetween: '2021.07 - 2022-07'
 					// descriptionTags: ['Scrum', 'Project Management', 'Team Leadership', 'Collaboration']
 				},
 				{
@@ -83,9 +118,9 @@ export const CVData = {
 						`• Conceptualized, designed, and developed a Learn Management System with Integrated Lesson plan and certification.
 						• Designed, Deployed, and monitored a software hosting system managing more than 5TB of traffic daily.
 						• Deployed a content delivery network for high-traffic websites.`,
-					companyWebSite: 'http://andela.com',
+					companyWebSite: 'http://inepu.com',
 					companyMeta: '',
-					datesBetween: '2019.11 - 2020-04'
+					datesBetween: '2015.07 - 2020-12'
 					// descriptionTags: [
 					// 	'Javascript',
 					// 	'React',
@@ -97,7 +132,7 @@ export const CVData = {
 					// ]
 				},
 				{
-					title: 'Consultant Software Developer',
+					title: 'Graphic Designer',
 					company: 'T-Kay Investment Ltd',
 					companyWebSite: 'http://tkayinvestment.com',
 					companyMeta: '',
@@ -105,16 +140,10 @@ export const CVData = {
 						// eslint-disable-next-line max-len
 						`• I’ve extended solutions to various agencies, design studios and also taken on solo projects. I improved processes and provided solutions primarily in the realms of Software Development, design, Communication Materials such as Videos and graphics, and project management.
 						• Wrote functional and design specifications for various software products and developed prototypes as well as performed unit testing.
-						• Managed software development life cycle and conducted risk assessment and mitigation.`,
-					datesBetween: '2015.12 - 2017.05'
-					// descriptionTags: [
-					// 	'Illustrator',
-					// 	'Wordpress',
-					// 	'Javascript',
-					// 	'Html + CSS',
-					// 	'Social media Management',
-					// 	'Photoshop'
-					// ]
+						• Managed software development life cycle and conducted risk assessment and mitigation.
+						• Graphic Design for various institutions.
+						• Social Media management including Search Engine Optimization. This improved the companies ranking on Google and started bringing in traffic for its branch in London (YE Suppliers)`,
+					datesBetween: '2017.01 - 2019.10'
 				}
 			]
 		},

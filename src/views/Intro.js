@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import { AppBar, Box, Grid, Hidden, Tabs, Typography } from '@material-ui/core';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Tab from '@material-ui/core/Tab';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SwipeableViews from 'react-swipeable-views';
@@ -134,7 +134,7 @@ export default function VerticalTabs() {
 							{/* <Tab label='Blog' {...a11yProps(1)} /> */}
 							<Tab
 								label='Blog'
-								{...a11yProps(4)}
+								{...a11yProps(1)}
 								component={Link}
 								to={{ pathname: 'https://blog.victor-abz.com/' }}
 								target='_blank'
