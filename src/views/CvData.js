@@ -229,46 +229,46 @@ export const CVData = {
 				}
 			]
 		},
-		{
-			type: 'common-list',
-			title: 'Education',
-			icon: 'graduation',
-			items: [
-				{
-					title: 'Business Administration (BS)',
-					authority: 'University of Rwanda',
-					authorityWebSite: 'https://ur.ac.rw',
-					rightSide: '2014 - 2018'
-				},
-				{
-					title: 'Software Engineering',
-					authority: 'Lynda.com and udemy.com',
-					authorityWebSite: 'https://udemy.com',
-					rightSide: '2015 - 2017'
-				},
-				{
-					title: 'Graphic design',
-					authority: 'Lynda.com and udemy.com',
-					authorityWebSite: 'https://lynda.com',
-					rightSide: '2014 - 2016'
-				},
-				{
-					title: "Math-Physics and Computer science (A' Level)",
-					authority: 'ES Kanombe',
-					rightSide: '2010 - 2013'
-				},
-				{
-					title: "O' Level",
-					authority: 'ES Kanombe',
-					rightSide: '2007 - 2009'
-				},
-				{
-					title: 'Primary school',
-					authority: 'EP Rubirizi',
-					rightSide: '2003 - 2006'
-				}
-			]
-		},
+		// {
+		// 	type: 'common-list',
+		// 	title: 'Education',
+		// 	icon: 'graduation',
+		// 	items: [
+		// 		{
+		// 			title: 'Business Administration (BS)',
+		// 			authority: 'University of Rwanda',
+		// 			authorityWebSite: 'https://ur.ac.rw',
+		// 			rightSide: '2014 - 2018'
+		// 		},
+		// 		{
+		// 			title: 'Software Engineering',
+		// 			authority: 'Lynda.com and udemy.com',
+		// 			authorityWebSite: 'https://udemy.com',
+		// 			rightSide: '2015 - 2017'
+		// 		},
+		// 		{
+		// 			title: 'Graphic design',
+		// 			authority: 'Lynda.com and udemy.com',
+		// 			authorityWebSite: 'https://lynda.com',
+		// 			rightSide: '2014 - 2016'
+		// 		},
+		// 		{
+		// 			title: "Math-Physics and Computer science (A' Level)",
+		// 			authority: 'ES Kanombe',
+		// 			rightSide: '2010 - 2013'
+		// 		},
+		// 		{
+		// 			title: "O' Level",
+		// 			authority: 'ES Kanombe',
+		// 			rightSide: '2007 - 2009'
+		// 		},
+		// 		{
+		// 			title: 'Primary school',
+		// 			authority: 'EP Rubirizi',
+		// 			rightSide: '2003 - 2006'
+		// 		}
+		// 	]
+		// },
 		// {
 		// 	type: 'common-list',
 		// 	title: 'Conferences & Certificates',
