@@ -17,26 +17,26 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-819%20hrs%2039%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 732.5 kB Used in GitHub's Storage 
  > 
-> 🏆 272 Contributions in the Year 2024
- > 
 > 💼 Opted to Hire
  > 
-> 📜 164 Public Repositories 
+> 📜 165 Public Repositories 
  > 
 > 🔑 55 Private Repositories 
  > 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                6892 commits        ████████░░░░░░░░░░░░░░░░░   33.48 % 
-🌆 Daytime                7579 commits        █████████░░░░░░░░░░░░░░░░   36.82 % 
-🌃 Evening                5921 commits        ███████░░░░░░░░░░░░░░░░░░   28.77 % 
+🌞 Morning                6904 commits        ████████░░░░░░░░░░░░░░░░░   33.48 % 
+🌆 Daytime                7601 commits        █████████░░░░░░░░░░░░░░░░   36.86 % 
+🌃 Evening                5925 commits        ███████░░░░░░░░░░░░░░░░░░   28.73 % 
 🌙 Night                  191 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.93 % 
 ```
 
@@ -69,7 +69,7 @@ Shell                    2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 16/06/2024 02:48:38 UTC
+ Last Updated on 17/06/2024 02:48:39 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
