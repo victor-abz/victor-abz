@@ -19,13 +19,13 @@ simply, I Design, Build, and Improve.
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-819%20hrs%2039%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 762.0 kB Used in GitHub's Storage 
  > 
-> 🏆 864 Contributions in the Year 2024
+> 🏆 869 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -36,10 +36,10 @@ simply, I Design, Build, and Improve.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                13725 commits       ███████░░░░░░░░░░░░░░░░░░   28.72 % 
-🌆 Daytime                21602 commits       ███████████░░░░░░░░░░░░░░   45.21 % 
-🌃 Evening                11739 commits       ██████░░░░░░░░░░░░░░░░░░░   24.57 % 
-🌙 Night                  715 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.50 % 
+🌞 Morning                13682 commits       ███████░░░░░░░░░░░░░░░░░░   28.72 % 
+🌆 Daytime                21529 commits       ███████████░░░░░░░░░░░░░░   45.20 % 
+🌃 Evening                11710 commits       ██████░░░░░░░░░░░░░░░░░░░   24.58 % 
+🌙 Night                  713 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.50 % 
 ```
 
 
@@ -49,13 +49,18 @@ simply, I Design, Build, and Improve.
 🕑︎ Time Zone: Africa/Kigali
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+TypeScript               28 mins             ████████████░░░░░░░░░░░░░   47.82 % 
+Other                    18 mins             ████████░░░░░░░░░░░░░░░░░   31.35 % 
+JSON                     8 mins              ███░░░░░░░░░░░░░░░░░░░░░░   13.47 % 
+Java                     4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.37 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  48 mins             █████████████████████░░░░   82.41 % 
+Zoom                     6 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.23 % 
+IntelliJ IDEA            4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.37 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      59 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -71,7 +76,7 @@ Shell                    2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 05/11/2024 03:10:40 UTC
+ Last Updated on 06/11/2024 03:14:47 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
