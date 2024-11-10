@@ -17,8 +17,6 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-823%20hrs%2054%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
 **🐱 My GitHub Data** 
@@ -77,7 +75,7 @@ Shell                    2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 09/11/2024 03:11:04 UTC
+ Last Updated on 10/11/2024 03:13:50 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
