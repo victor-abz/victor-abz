@@ -17,7 +17,7 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-931%20hrs%2042%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-940%20hrs%2053%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -25,7 +25,7 @@ simply, I Design, Build, and Improve.
 
 > 📦 770.8 kB Used in GitHub's Storage 
  > 
-> 🏆 1,112 Contributions in the Year 2024
+> 🏆 1,142 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -33,6 +33,38 @@ simply, I Design, Build, and Improve.
  > 
 > 🔑 61 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                15401 commits       ███████░░░░░░░░░░░░░░░░░░   27.96 % 
+🌆 Daytime                25434 commits       ████████████░░░░░░░░░░░░░   46.18 % 
+🌃 Evening                13429 commits       ██████░░░░░░░░░░░░░░░░░░░   24.38 % 
+🌙 Night                  817 commits         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Africa/Kigali
+
+💬 Programming Languages: 
+TypeScript               38 hrs 26 mins      ████████████████████░░░░░   81.19 % 
+HTML                     2 hrs 46 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.87 % 
+Java                     2 hrs 2 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.33 % 
+HTTP Request             1 hr 32 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.25 % 
+JSON                     1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
+
+🔥 Editors: 
+VS Code                  41 hrs 55 mins      ██████████████████████░░░   88.54 % 
+IntelliJ IDEA            3 hrs 36 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.63 % 
+Postman                  1 hr 32 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.25 % 
+Zoom                     16 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 % 
+
+💻 Operating System: 
+Mac                      47 hrs 20 mins      █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -46,7 +78,7 @@ Shell                    2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 11/12/2024 03:34:26 UTC
+ Last Updated on 12/12/2024 03:30:31 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
