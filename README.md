@@ -17,13 +17,15 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C118%20hrs%2026%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.6 MB Used in GitHub's Storage 
  > 
-> 🏆 2,562 Contributions in the Year 2025
+> 🏆 2,563 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -31,6 +33,37 @@ simply, I Design, Build, and Improve.
  > 
 > 🔑 75 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                23673 commits       ███████░░░░░░░░░░░░░░░░░░   27.01 % 
+🌆 Daytime                40641 commits       ████████████░░░░░░░░░░░░░   46.37 % 
+🌃 Evening                21222 commits       ██████░░░░░░░░░░░░░░░░░░░   24.21 % 
+🌙 Night                  2117 commits        █░░░░░░░░░░░░░░░░░░░░░░░░   02.42 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Africa/Kigali
+
+💬 Programming Languages: 
+HTTP Request             6 hrs 44 mins       ██████░░░░░░░░░░░░░░░░░░░   24.06 % 
+TypeScript               4 hrs 54 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.52 % 
+Java                     4 hrs 29 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.06 % 
+Python                   4 hrs 4 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.53 % 
+HTML                     3 hrs 37 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
+
+🔥 Editors: 
+VS Code                  16 hrs 31 mins      ███████████████░░░░░░░░░░   59.01 % 
+Postman                  6 hrs 44 mins       ██████░░░░░░░░░░░░░░░░░░░   24.06 % 
+IntelliJ IDEA            4 hrs 44 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.93 % 
+
+💻 Operating System: 
+Mac                      27 hrs 59 mins      █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -44,7 +77,7 @@ Shell                    3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 03/10/2025 03:32:07 UTC
+ Last Updated on 04/10/2025 03:30:37 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
