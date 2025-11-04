@@ -17,13 +17,15 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C207%20hrs%201%20min-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.6 MB Used in GitHub's Storage 
  > 
-> 🏆 2,794 Contributions in the Year 2025
+> 🏆 2,815 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -31,6 +33,39 @@ simply, I Design, Build, and Improve.
  > 
 > 🔑 77 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                24485 commits       ███████░░░░░░░░░░░░░░░░░░   26.91 % 
+🌆 Daytime                42222 commits       ████████████░░░░░░░░░░░░░   46.41 % 
+🌃 Evening                22011 commits       ██████░░░░░░░░░░░░░░░░░░░   24.19 % 
+🌙 Night                  2267 commits        █░░░░░░░░░░░░░░░░░░░░░░░░   02.49 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Africa/Kigali
+
+💬 Programming Languages: 
+Markdown                 5 hrs 55 mins       ██████░░░░░░░░░░░░░░░░░░░   22.33 % 
+TypeScript               4 hrs 19 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.25 % 
+Java                     4 hrs 13 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.93 % 
+YAML                     3 hrs 2 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
+Docker                   2 hrs 8 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.04 % 
+
+🔥 Editors: 
+VS Code                  18 hrs 42 mins      ██████████████████░░░░░░░   70.44 % 
+IntelliJ IDEA            4 hrs 24 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.60 % 
+Postman                  1 hr 36 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.03 % 
+Zoom                     1 hr 29 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.58 % 
+Notes                    21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
+
+💻 Operating System: 
+Mac                      26 hrs 34 mins      █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -44,7 +79,7 @@ Shell                    3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 02/11/2025 04:07:12 UTC
+ Last Updated on 04/11/2025 03:56:22 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
