@@ -17,13 +17,15 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C391%20hrs%2011%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.6 MB Used in GitHub's Storage 
  > 
-> 🏆 0 Contributions in the Year 2026
+> 🏆 14 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -31,6 +33,37 @@ simply, I Design, Build, and Improve.
  > 
 > 🔑 77 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                26541 commits       ███████░░░░░░░░░░░░░░░░░░   26.55 % 
+🌆 Daytime                46531 commits       ████████████░░░░░░░░░░░░░   46.54 % 
+🌃 Evening                24262 commits       ██████░░░░░░░░░░░░░░░░░░░   24.27 % 
+🌙 Night                  2646 commits        █░░░░░░░░░░░░░░░░░░░░░░░░   02.65 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Africa/Kigali
+
+💬 Programming Languages: 
+HTTP Request             9 hrs 16 mins       ██████████░░░░░░░░░░░░░░░   40.60 % 
+HTML                     3 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.48 % 
+TypeScript               3 hrs 16 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.36 % 
+JSON                     2 hrs 42 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.86 % 
+Java                     1 hr 25 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.22 % 
+
+🔥 Editors: 
+VS Code                  11 hrs 29 mins      █████████████░░░░░░░░░░░░   50.32 % 
+Postman                  9 hrs 16 mins       ██████████░░░░░░░░░░░░░░░   40.60 % 
+IntelliJ IDEA            2 hrs 4 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.08 % 
+
+💻 Operating System: 
+Mac                      22 hrs 50 mins      █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -44,7 +77,7 @@ Shell                    3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 04/01/2026 03:42:17 UTC
+ Last Updated on 06/01/2026 03:31:57 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
