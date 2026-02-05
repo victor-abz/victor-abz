@@ -17,7 +17,7 @@ simply, I Design, Build, and Improve.
 
 ## My weekly Waka stats
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C505%20hrs%2015%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C506%20hrs%2051%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -25,7 +25,7 @@ simply, I Design, Build, and Improve.
 
 > 📦 1.6 MB Used in GitHub's Storage 
  > 
-> 🏆 362 Contributions in the Year 2026
+> 🏆 363 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -33,6 +33,36 @@ simply, I Design, Build, and Improve.
  > 
 > 🔑 77 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                27236 commits       ███████░░░░░░░░░░░░░░░░░░   26.35 % 
+🌆 Daytime                48129 commits       ████████████░░░░░░░░░░░░░   46.57 % 
+🌃 Evening                25204 commits       ██████░░░░░░░░░░░░░░░░░░░   24.39 % 
+🌙 Night                  2789 commits        █░░░░░░░░░░░░░░░░░░░░░░░░   02.70 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Africa/Kigali
+
+💬 Programming Languages: 
+Text                     7 hrs 9 mins        ████████████████████░░░░░   78.92 % 
+Java                     1 hr 14 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.59 % 
+Python                   14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.65 % 
+YAML                     14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
+JSON                     6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.12 % 
+
+🔥 Editors: 
+VS Code                  7 hrs 47 mins       █████████████████████░░░░   85.90 % 
+IntelliJ IDEA            1 hr 16 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.10 % 
+
+💻 Operating System: 
+Mac                      9 hrs 4 mins        █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
@@ -46,7 +76,7 @@ Shell                    3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 04/02/2026 03:48:28 UTC
+ Last Updated on 05/02/2026 03:51:51 UTC
 <!--END_SECTION:waka-->
 
 ## Credits
