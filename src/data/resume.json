@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-02-09"
+  },
+  "basics": {
+    "name": "Victor Abizeyimana",
+    "headline": "Software Engineer",
+    "summary": "A problem-solving software engineer with over 6 years of experience developing financial software in a variety of industries, primarily finance and government services. I am driven to collaborate with remote and local teams all over the world to design, build, and continuously improve processes using scalable solutions. Simply, I Collaborate, Design, Build, and Improve.",
+    "email": "svicky.shema@gmail.com",
+    "phone": "+250 789 032 290",
+    "location": "Kigali, Rwanda",
+    "url": "https://victor-abz.com",
+    "avatar": "/victor_Abz.jpeg",
+    "resumePdf": "/CV-Victor-Abizeyimana.pdf",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "victor-abz",
+        "url": "https://github.com/victor-abz"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "victor-abizeyimana",
+        "url": "https://www.linkedin.com/in/victor-abizeyimana-6a710910a/"
+      },
+      {
+        "network": "Twitter",
+        "username": "vicky_abz",
+        "url": "https://twitter.com/vicky_abz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "MUGANGA SACCO",
+      "position": "Director of ICT",
+      "url": "https://mugangasacco.rw",
+      "startDate": "2022-08",
+      "endDate": "",
+      "summary": "Spearheading the implementation of the first fully digital SACCO in Rwanda.",
+      "highlights": [
+        "Spearheading the implementation of the first fully digital SACCO in Rwanda by implementing advanced customer onboarding module and digital channels such as mobile banking via USSD, Mobile Application, Internet Banking, and ATM Integrations",
+        "Lead the development and deployment of BNR Electronic Datawarehouse, oversee daily reporting and RIPPS integration for real-time settlement"
+      ]
+    },
+    {
+      "company": "World Bank",
+      "position": "eGRM Technical Support Consultant",
+      "url": "https://www.worldbank.org/",
+      "startDate": "2022-02",
+      "endDate": "2023-06",
+      "summary": "Supported the deployment and piloting of the Grievance Redress Mechanism system across Rwanda.",
+      "highlights": [
+        "Conducted GRM pilot preparation across the country and evaluated the pilot's progress through weekly reports and communication",
+        "Supported the task team on the customization and deployment of the GRM system, including regression tests, usability tests, and reporting",
+        "Delivered customized training to local audiences with/without IT skills in remote areas of Rwanda",
+        "Collected feedback from end-users on usability tests and piloting functionalities"
+      ]
+    },
+    {
+      "company": "Ministry of Health / Muganga SACCO / Global Health Corps",
+      "position": "Software Project Manager",
+      "url": "https://mugangasacco.rw",
+      "startDate": "2021-07",
+      "endDate": "2022-07",
+      "summary": "Managed IT strategy, infrastructure, and software development across health and financial sectors.",
+      "highlights": [
+        "Preparation of IT strategy for 2022–2024 and Digital financial service plan",
+        "Setup IT Infrastructure and formulated internal IT procedures and strategies",
+        "Successful deployment of Internet web portal featuring thorough loan origination process management and members KYC management",
+        "Designed, tested and deployed a loan appraisal module for primary evaluation of loans",
+        "Management of core banking software project implementation by liaising with external vendors"
+      ]
+    },
+    {
+      "company": "Benefactors",
+      "position": "Senior Software Developer",
+      "url": "https://benefactors.io",
+      "startDate": "2020-07",
+      "endDate": "2022-02",
+      "summary": "Led product development and mentored junior developers at a fintech company.",
+      "highlights": [
+        "Led the development and rollout of a new software product with a cross-functional team",
+        "Wrote efficient, reliable, and easy to maintain code, collaborating with other developers",
+        "Acted as a mentor to junior developers, sharing knowledge and helping them grow",
+        "Contributed to the development of company standards and best practices"
+      ]
+    },
+    {
+      "company": "Andela Rwanda Limited",
+      "position": "Software Engineer",
+      "url": "https://andela.com",
+      "startDate": "2019-11",
+      "endDate": "2020-04",
+      "summary": "Built travel management and authentication systems using microservice architecture.",
+      "highlights": [
+        "Developed a system for managing company travel involving travel requests, budget preparation, and approval",
+        "Implemented scalable solution for user authentication and authorization with OAuth2 and custom JWT",
+        "Developed a microservice architecture in Node.js and React for backend service communication"
+      ]
+    },
+    {
+      "company": "Inepu",
+      "position": "Co-Founder & CTO",
+      "url": "https://inepu.com",
+      "startDate": "2015-07",
+      "endDate": "2020-12",
+      "summary": "Co-founded an ed-tech platform and built a learning management system from the ground up.",
+      "highlights": [
+        "Conceptualized, designed, and developed a Learning Management System with integrated lesson plan and certification",
+        "Designed, deployed, and monitored a software hosting system managing more than 5TB of traffic daily",
+        "Deployed a content delivery network for high-traffic websites"
+      ]
+    },
+    {
+      "company": "T-Kay Investment Ltd",
+      "position": "Graphic Designer & Developer",
+      "url": "https://tkayinvestment.com",
+      "startDate": "2017-01",
+      "endDate": "2019-10",
+      "summary": "Provided software development, design, and digital marketing solutions.",
+      "highlights": [
+        "Extended solutions to various agencies and design studios, taking on solo projects in software development and design",
+        "Wrote functional and design specifications for software products and developed prototypes",
+        "Managed software development life cycle and conducted risk assessment and mitigation",
+        "Social media management including SEO, improving the company's ranking on Google"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Rosling — Financial Management Software",
+      "company": "Benefactors",
+      "date": "2020",
+      "summary": "Designed and developed a robust financial management system for a non-deposit financial institution.",
+      "highlights": [
+        "Built modules for loan applications management, disbursement, monitoring, and fees calculation with strict validation",
+        "Integrated AI-based tracking of loan applicant performance on external systems",
+        "Migrated large datasets from Google Sheets-based system without business disruption",
+        "Currently manages more than 2.4 Billion Rwf extended to more than 150 SMEs"
+      ],
+      "tags": ["React", "Node.js", "PostgreSQL", "AI/ML"]
+    },
+    {
+      "name": "Virtual Sales Data Controller",
+      "company": "Benefactors",
+      "date": "2021",
+      "summary": "Led development of a VSDC invoicing system enabling SMEs to comply with tax regulations.",
+      "highlights": [
+        "Launched an invoicing system providing a cost-effective tool for SMEs to comply with EBM regulations",
+        "Led a development team of 4 through requirements gathering, design, development, and testing using Agile"
+      ],
+      "tags": ["React", "Node.js", "Agile", "Fintech"]
+    },
+    {
+      "name": "Midas Loan Dashboards",
+      "company": "PesaChoice",
+      "date": "2021–2022",
+      "summary": "Built comprehensive loan performance dashboards for a financial services company.",
+      "highlights": [
+        "Developed rich dashboards on loan performance with real-time monitoring",
+        "Integrated AI robot to track loan applicant performance on external systems"
+      ],
+      "tags": ["React", "Data Visualization", "Fintech"]
+    },
+    {
+      "name": "Loan Management System",
+      "company": "PesaChoice",
+      "date": "2021–2022",
+      "summary": "Designed a loan management system extending loans to employees through existing payroll systems.",
+      "highlights": [
+        "Led team to design, deploy and maintain the system using agile methodology",
+        "Automated loan origination, processing, and payment supervision",
+        "Implemented testing with Chai, Mocha, Jest and automatic deployments via CI/CD"
+      ],
+      "tags": ["Node.js", "React", "CI/CD", "Testing"]
+    },
+    {
+      "name": "Medical Doctor Saving Management System",
+      "company": "Ministry of Health",
+      "date": "2021",
+      "summary": "Platform to increase retention of medical doctors by promoting saving and extending low-interest loans.",
+      "highlights": [
+        "Manages monthly savings and loans for healthcare professionals",
+        "Coordinated project planning, implementation, and supervision of software design specifications",
+        "Currently manages more than 10,000 medical professionals with around 5 Billion Rwf in savings"
+      ],
+      "tags": ["React", "Node.js", "PostgreSQL", "Healthcare"]
+    },
+    {
+      "name": "ML-Based Credit Scoring",
+      "company": "PesaChoice",
+      "date": "2021",
+      "summary": "Designed an ML-based credit scoring system for selective allocation of credit.",
+      "highlights": [
+        "System correctly identifies high-risk customers with ~89% accuracy",
+        "Helped improve customer service by allowing credit to more customers",
+        "Increased weekly customer throughput by more than 5% since deployment"
+      ],
+      "tags": ["Python", "Machine Learning", "Fintech", "Data Science"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML/CSS"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Python", "Express", "REST APIs", "GraphQL"]
+    },
+    {
+      "category": "Databases",
+      "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
+    },
+    {
+      "category": "DevOps & Tools",
+      "items": ["Docker", "CI/CD", "Git", "Nginx", "Linux"]
+    },
+    {
+      "category": "Mobile & Other",
+      "items": ["Flutter", "React Native", "Agile/Scrum", "Project Management"]
+    },
+    {
+      "category": "Design",
+      "items": ["Figma", "Adobe Illustrator", "Photoshop", "UI/UX Design"]
+    }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Professional" },
+    { "language": "French", "fluency": "Intermediate" },
+    { "language": "Kinyarwanda", "fluency": "Native" }
+  ],
+  "education": [
+    {
+      "institution": "University of Rwanda",
+      "url": "https://ur.ac.rw",
+      "area": "Business Administration",
+      "studyType": "Bachelor's",
+      "startDate": "2014",
+      "endDate": "2018"
+    }
+  ]
+}
