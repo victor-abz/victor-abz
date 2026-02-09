@@ -30,3 +30,7 @@ export function useLanguages() {
 export function useEducation() {
   return data.education
 }
+
+export function useCertifications() {
+  return data.certifications
+}

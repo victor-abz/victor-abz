@@ -1,4 +1,4 @@
-import { Building2, Calendar } from 'lucide-react'
+import { Building2, Calendar, ExternalLink } from 'lucide-react'
 import { useProjects } from '@/hooks/useResumeData'
 
 export function ProjectsSection() {
@@ -14,7 +14,20 @@ export function ProjectsSection() {
             key={`${project.name}-${index}`}
             className="p-5 rounded-xl bg-[var(--color-card-inner)] hover:shadow-md transition-shadow flex flex-col"
           >
-            <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
+            <div className="flex items-start justify-between gap-2 mb-2">
+              <h3 className="text-lg font-semibold">{project.name}</h3>
+              {project.url && (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-text-muted)] hover:text-[var(--color-brand)] transition-colors shrink-0 mt-1"
+                  aria-label={`Visit ${project.name}`}
+                >
+                  <ExternalLink size={14} />
+                </a>
+              )}
+            </div>
 
             <div className="flex items-center gap-4 text-xs text-[var(--color-text-muted)] mb-3">
               <span className="flex items-center gap-1">

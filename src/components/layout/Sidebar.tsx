@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Download, ExternalLink } from 'lucide-react'
+import { Mail, Phone, MapPin, Download } from 'lucide-react'
 import { useBasics } from '@/hooks/useResumeData'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
 
@@ -96,20 +96,6 @@ export function Sidebar() {
       >
         <Download size={16} />
         Download CV
-      </a>
-
-      {/* Blog link */}
-      <a
-        href="https://blog.victor-abz.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 mt-3 px-4 py-2 rounded-lg
-          border border-[var(--color-sidebar-muted)]/30 text-[var(--color-sidebar-muted)]
-          text-sm hover:text-[var(--color-brand)] hover:border-[var(--color-brand)]/30
-          transition-colors w-full justify-center"
-      >
-        <ExternalLink size={16} />
-        Blog
       </a>
 
       {/* Spacer + Theme toggle */}

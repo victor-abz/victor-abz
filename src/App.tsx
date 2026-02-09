@@ -5,6 +5,7 @@ import AboutPage from '@/pages/AboutPage'
 import ExperiencePage from '@/pages/ExperiencePage'
 import ProjectsPage from '@/pages/ProjectsPage'
 import SkillsPage from '@/pages/SkillsPage'
+import BlogPage from '@/pages/BlogPage'
 import ContactPage from '@/pages/ContactPage'
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
             <Route path="experience" element={<ExperiencePage />} />
             <Route path="projects" element={<ProjectsPage />} />
             <Route path="skills" element={<SkillsPage />} />
+            <Route path="blog" element={<BlogPage />} />
             <Route path="contact" element={<ContactPage />} />
           </Route>
         </Routes>

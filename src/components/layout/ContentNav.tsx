@@ -1,12 +1,13 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
-import { User, Briefcase, FolderKanban, Wrench, Mail } from 'lucide-react'
+import { User, Briefcase, FolderKanban, Wrench, BookOpen, Mail } from 'lucide-react'
 
 const navItems = [
   { to: '/', label: 'About', icon: User },
   { to: '/experience', label: 'Experience', icon: Briefcase },
   { to: '/projects', label: 'Projects', icon: FolderKanban },
   { to: '/skills', label: 'Skills', icon: Wrench },
+  { to: '/blog', label: 'Blog', icon: BookOpen },
   { to: '/contact', label: 'Contact', icon: Mail },
 ]
 

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Menu, X, User, Briefcase, FolderKanban, Wrench, Mail, ExternalLink, Download } from 'lucide-react'
+import { Menu, X, User, Briefcase, FolderKanban, Wrench, BookOpen, Mail, Download } from 'lucide-react'
 import { useBasics } from '@/hooks/useResumeData'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
 import { cn } from '@/lib/utils'
@@ -10,6 +10,7 @@ const navItems = [
   { to: '/experience', label: 'Experience', icon: Briefcase },
   { to: '/projects', label: 'Projects', icon: FolderKanban },
   { to: '/skills', label: 'Skills', icon: Wrench },
+  { to: '/blog', label: 'Blog', icon: BookOpen },
   { to: '/contact', label: 'Contact', icon: Mail },
 ]
 
@@ -75,16 +76,6 @@ export function MobileHeader() {
             >
               <Download size={18} />
               Download CV
-            </a>
-            <a
-              href="https://blog.victor-abz.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium
-                text-[var(--color-text-secondary)] hover:bg-[var(--color-card-inner)] transition-colors"
-            >
-              <ExternalLink size={18} />
-              Blog
             </a>
           </nav>
         </div>
