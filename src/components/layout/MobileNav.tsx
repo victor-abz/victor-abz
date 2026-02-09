@@ -25,7 +25,7 @@ export function MobileNav() {
                 'flex flex-col items-center gap-0.5 px-2 py-1 text-[10px] font-medium transition-colors',
                 isActive
                   ? 'text-[var(--color-brand)]'
-                  : 'text-[var(--color-text-muted)]'
+                  : 'text-[var(--color-text-secondary)]'
               )
             }
           >

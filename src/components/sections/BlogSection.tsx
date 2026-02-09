@@ -28,7 +28,7 @@ export function BlogSection() {
       <div>
         <h2 className="text-2xl font-bold mb-6">Blog</h2>
         <div className="p-8 rounded-xl bg-[var(--color-card-inner)] text-center">
-          <BookOpen size={32} className="mx-auto mb-3 text-[var(--color-text-muted)]" />
+          <BookOpen size={32} className="mx-auto mb-3 text-[var(--color-text-secondary)]" />
           <p className="text-[var(--color-text-secondary)] mb-4">Unable to load blog posts right now.</p>
           <a
             href={blog.url}
@@ -95,12 +95,12 @@ export function BlogSection() {
                   {post.title}
                 </h3>
 
-                <p className="text-xs text-[var(--color-text-muted)] mb-3 line-clamp-2 flex-1">
+                <p className="text-xs text-[var(--color-text-secondary)] mb-3 line-clamp-2 flex-1">
                   {post.brief}
                 </p>
 
                 {/* Meta row */}
-                <div className="flex items-center gap-3 text-[10px] text-[var(--color-text-muted)]">
+                <div className="flex items-center gap-3 text-[10px] text-[var(--color-text-secondary)]">
                   <span className="flex items-center gap-1">
                     <Calendar size={10} />
                     {date}

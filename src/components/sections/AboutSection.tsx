@@ -39,7 +39,7 @@ export function AboutSection() {
                 >
                   {edu.institution}
                 </a>
-                <div className="text-sm text-[var(--color-text-muted)] mt-1">
+                <div className="text-sm text-[var(--color-text-secondary)] mt-1">
                   {edu.startDate} — {edu.endDate}
                 </div>
               </div>
@@ -60,7 +60,7 @@ export function AboutSection() {
                 className="flex items-center justify-between p-3 rounded-lg bg-[var(--color-card-inner)]"
               >
                 <span className="font-medium">{lang.language}</span>
-                <span className="text-sm text-[var(--color-text-muted)]">
+                <span className="text-sm text-[var(--color-text-secondary)]">
                   {lang.fluency}
                 </span>
               </div>
@@ -82,7 +82,7 @@ export function AboutSection() {
               className="p-3 rounded-lg bg-[var(--color-card-inner)]"
             >
               <div className="font-medium text-sm">{cert.name}</div>
-              <div className="text-xs text-[var(--color-text-muted)] mt-1">
+              <div className="text-xs text-[var(--color-text-secondary)] mt-1">
                 {cert.authority} &middot; {cert.date.split('-')[0]}
               </div>
               {cert.url && (

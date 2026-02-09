@@ -24,7 +24,7 @@ export function ContentNav() {
               'flex items-center gap-2 px-4 py-3 text-sm font-medium transition-colors relative',
               isActive
                 ? 'text-[var(--color-brand)]'
-                : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)]'
+                : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text)]'
             )
           }
         >

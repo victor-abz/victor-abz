@@ -42,7 +42,7 @@ export function ExperienceSection() {
                       )}
                     </div>
                   </div>
-                  <span className="text-xs text-[var(--color-text-muted)] font-medium shrink-0">
+                  <span className="text-xs text-[var(--color-text-secondary)] font-medium shrink-0">
                     {formatDateRange(job.startDate, job.endDate)}
                   </span>
                 </div>

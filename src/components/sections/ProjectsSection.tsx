@@ -21,7 +21,7 @@ export function ProjectsSection() {
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[var(--color-text-muted)] hover:text-[var(--color-brand)] transition-colors shrink-0 mt-1"
+                  className="text-[var(--color-text-secondary)] hover:text-[var(--color-brand)] transition-colors shrink-0 mt-1"
                   aria-label={`Visit ${project.name}`}
                 >
                   <ExternalLink size={14} />
@@ -29,7 +29,7 @@ export function ProjectsSection() {
               )}
             </div>
 
-            <div className="flex items-center gap-4 text-xs text-[var(--color-text-muted)] mb-3">
+            <div className="flex items-center gap-4 text-xs text-[var(--color-text-secondary)] mb-3">
               <span className="flex items-center gap-1">
                 <Building2 size={12} />
                 {project.company}

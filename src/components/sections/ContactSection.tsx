@@ -24,7 +24,7 @@ export function ContactSection() {
               <Mail size={20} />
             </div>
             <div>
-              <div className="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">Email</div>
+              <div className="text-xs text-[var(--color-text-secondary)] uppercase tracking-wider">Email</div>
               <div className="text-sm font-medium group-hover:text-[var(--color-brand)] transition-colors">
                 {basics.email}
               </div>
@@ -41,7 +41,7 @@ export function ContactSection() {
               <Phone size={20} />
             </div>
             <div>
-              <div className="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">Phone</div>
+              <div className="text-xs text-[var(--color-text-secondary)] uppercase tracking-wider">Phone</div>
               <div className="text-sm font-medium group-hover:text-[var(--color-brand)] transition-colors">
                 {basics.phone}
               </div>
@@ -54,7 +54,7 @@ export function ContactSection() {
               <MapPin size={20} />
             </div>
             <div>
-              <div className="text-xs text-[var(--color-text-muted)] uppercase tracking-wider">Location</div>
+              <div className="text-xs text-[var(--color-text-secondary)] uppercase tracking-wider">Location</div>
               <div className="text-sm font-medium">{basics.location}</div>
             </div>
           </div>
@@ -77,11 +77,11 @@ export function ContactSection() {
                   <div className="text-sm font-medium group-hover:text-[var(--color-brand)] transition-colors">
                     {profile.network}
                   </div>
-                  <div className="text-xs text-[var(--color-text-muted)]">
+                  <div className="text-xs text-[var(--color-text-secondary)]">
                     @{profile.username}
                   </div>
                 </div>
-                <ExternalLink size={16} className="text-[var(--color-text-muted)] group-hover:text-[var(--color-brand)] transition-colors" />
+                <ExternalLink size={16} className="text-[var(--color-text-secondary)] group-hover:text-[var(--color-brand)] transition-colors" />
               </a>
             ))}
           </div>
