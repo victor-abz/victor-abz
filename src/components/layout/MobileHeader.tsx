@@ -4,6 +4,7 @@ import { Menu, X, User, Briefcase, FolderKanban, Wrench, BookOpen, Mail, Downloa
 import { useBasics } from '@/hooks/useResumeData'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
 import { cn } from '@/lib/utils'
+import avatarImg from '@/assets/avatar.webp'
 
 const navItems = [
   { to: '/', label: 'About', icon: User },
@@ -24,8 +25,10 @@ export function MobileHeader() {
       <header className="flex items-center justify-between px-4 py-3 bg-[var(--color-card)] border-b border-[var(--color-border)]">
         <div className="flex items-center gap-3">
           <img
-            src={basics.avatar}
+            src={avatarImg}
             alt={basics.name}
+            width={32}
+            height={32}
             className="w-8 h-8 rounded-full object-cover"
           />
           <span className="font-semibold text-sm">{basics.name}</span>

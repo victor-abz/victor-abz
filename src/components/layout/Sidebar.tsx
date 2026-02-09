@@ -1,6 +1,7 @@
 import { Mail, Phone, MapPin, Download, ExternalLink } from 'lucide-react'
 import { useBasics } from '@/hooks/useResumeData'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
+import avatarImg from '@/assets/avatar.webp'
 
 const networkIcons: Record<string, string> = {
   GitHub: 'github',
@@ -32,8 +33,10 @@ export function Sidebar() {
     <aside className="flex flex-col items-center bg-[var(--color-sidebar)] text-[var(--color-sidebar-text)] p-6 lg:p-8 lg:w-[280px] lg:h-full">
       {/* Avatar */}
       <img
-        src={basics.avatar}
+        src={avatarImg}
         alt={basics.name}
+        width={144}
+        height={144}
         className="w-28 h-28 lg:w-36 lg:h-36 rounded-full object-cover border-4 border-[var(--color-brand)] mb-4"
       />
 
