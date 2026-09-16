@@ -199,6 +199,19 @@
   ],
   "projects": [
     {
+      "name": "Low-Code/No-Code Service Digitization Builder",
+      "company": "Irembo",
+      "date": "2024–Present",
+      "url": "https://iremboplus.rw/",
+      "summary": "Configuration-driven platform for onboarding, digitizing, and evolving government and enterprise services without building a bespoke application for each workflow.",
+      "highlights": [
+        "Implemented reusable form, validation, business-rule, workflow, integration, certificate, pricing, payment, and notification capabilities",
+        "Reduced repetitive implementation through portable configuration, schema validation, environment-safe imports, and automated deployment workflows",
+        "Contributed to 25+ production launches and ongoing change delivery across 75 live digital services"
+      ],
+      "tags": ["Low-Code/No-Code", "Java", "Spring Boot", "Angular", "TypeScript", "JSON Schema"]
+    },
+    {
       "name": "Integration Platform Engineering",
       "company": "Irembo",
       "date": "2024–Present",
