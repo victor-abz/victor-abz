@@ -36,11 +36,11 @@
   },
   "resume": {
     "label": "Default Resume",
-    "externalUrl": "",
+    "externalUrl": "https://resume.victor-abz.com/victor/default-resume",
     "fallbackPdf": "/CV-Victor-Abizeyimana.pdf",
     "previewImage": "/CV-Victor-Abizeyimana-preview.webp",
     "sourceUrl": "https://resume.victor-abz.com",
-    "lastUpdated": "2026-09-15"
+    "lastUpdated": "2026-09-16"
   },
   "impact": [
     {
