@@ -1,5 +1,6 @@
-import { Mail, Phone, MapPin, Download, ExternalLink } from 'lucide-react'
-import { useBasics } from '@/hooks/useResumeData'
+import { Link } from 'react-router-dom'
+import { Mail, Phone, MapPin, Download, ExternalLink, FileText } from 'lucide-react'
+import { useBasics, useResumeDocument } from '@/hooks/useResumeData'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
 import avatarImg from '@/assets/avatar.webp'
 
@@ -28,6 +29,7 @@ function SocialIcon({ network }: { network: string }) {
 
 export function Sidebar() {
   const basics = useBasics()
+  const resume = useResumeDocument()
 
   return (
     <aside className="flex flex-col items-center bg-[var(--color-sidebar)] text-[var(--color-sidebar-text)] p-6 lg:p-8 lg:w-[280px] lg:h-full">
@@ -89,16 +91,27 @@ export function Sidebar() {
         ))}
       </div>
 
-      {/* Download CV */}
-      <a
-        href={basics.resumePdf}
-        download
+      {/* Resume */}
+      <Link
+        to="/resume"
         className="flex items-center gap-2 mt-6 px-4 py-2 rounded-lg
           bg-[var(--color-brand)] text-white text-sm font-medium
           hover:bg-[var(--color-brand-dark)] transition-colors w-full justify-center"
       >
+        <FileText size={16} />
+        View Résumé
+      </Link>
+
+      <a
+        href={resume.fallbackPdf}
+        download
+        className="flex items-center gap-2 mt-3 px-4 py-2 rounded-lg
+          border border-[var(--color-sidebar-muted)]/30 text-[var(--color-sidebar-muted)]
+          text-sm hover:text-[var(--color-brand)] hover:border-[var(--color-brand)]/30
+          transition-colors w-full justify-center"
+      >
         <Download size={16} />
-        Download CV
+        Download PDF
       </a>
 
       {/* Blog link */}

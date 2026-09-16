@@ -11,6 +11,18 @@ export function useBasics() {
   return data.basics
 }
 
+export function useResumeDocument() {
+  return data.resume
+}
+
+export function useImpact() {
+  return data.impact
+}
+
+export function useFeatured() {
+  return data.featured
+}
+
 export function useWork() {
   return data.work
 }
