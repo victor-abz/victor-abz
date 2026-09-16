@@ -23,9 +23,30 @@ export interface Basics {
   location: string
   url: string
   avatar: string
-  resumePdf: string
   blog: BlogConfig
   profiles: Profile[]
+}
+
+export interface ResumeDocument {
+  label: string
+  externalUrl: string
+  fallbackPdf: string
+  previewImage: string
+  sourceUrl: string
+  lastUpdated: string
+}
+
+export interface ImpactMetric {
+  value: string
+  label: string
+  detail: string
+}
+
+export interface FeaturedItem {
+  title: string
+  description: string
+  url: string
+  type: string
 }
 
 export interface WorkExperience {
@@ -34,6 +55,7 @@ export interface WorkExperience {
   url: string
   startDate: string
   endDate: string
+  context: string
   summary: string
   highlights: string[]
 }
@@ -77,6 +99,9 @@ export interface Education {
 export interface ResumeData {
   meta: Meta
   basics: Basics
+  resume: ResumeDocument
+  impact: ImpactMetric[]
+  featured: FeaturedItem[]
   work: WorkExperience[]
   projects: Project[]
   skills: SkillCategory[]

@@ -12,6 +12,7 @@ dist/
 # IDE
 .vscode/
 .idea/
+.context/
 
 # OS
 .DS_Store
@@ -20,3 +21,4 @@ Thumbs.db
 # logs
 *.log
 npm-debug.log*
+.eslintcache

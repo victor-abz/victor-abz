@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Menu, X, User, Briefcase, FolderKanban, Wrench, BookOpen, Mail, Download } from 'lucide-react'
-import { useBasics } from '@/hooks/useResumeData'
+import { Menu, X, User, Briefcase, FolderKanban, Wrench, FileText, BookOpen, Mail, Download } from 'lucide-react'
+import { useBasics, useResumeDocument } from '@/hooks/useResumeData'
 import { ThemeToggle } from '@/components/theme/ThemeToggle'
 import { cn } from '@/lib/utils'
 import avatarImg from '@/assets/avatar.webp'
@@ -11,6 +11,7 @@ const navItems = [
   { to: '/experience', label: 'Experience', icon: Briefcase },
   { to: '/projects', label: 'Projects', icon: FolderKanban },
   { to: '/skills', label: 'Skills', icon: Wrench },
+  { to: '/resume', label: 'Résumé', icon: FileText },
   { to: '/blog', label: 'Blog', icon: BookOpen },
   { to: '/contact', label: 'Contact', icon: Mail },
 ]
@@ -18,6 +19,7 @@ const navItems = [
 export function MobileHeader() {
   const [open, setOpen] = useState(false)
   const basics = useBasics()
+  const resume = useResumeDocument()
 
   return (
     <div className="md:hidden">
@@ -72,7 +74,7 @@ export function MobileHeader() {
             <div className="border-t border-[var(--color-border)] my-2" />
 
             <a
-              href={basics.resumePdf}
+              href={resume.fallbackPdf}
               download
               className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium
                 text-[var(--color-text-secondary)] hover:bg-[var(--color-card-inner)] transition-colors"

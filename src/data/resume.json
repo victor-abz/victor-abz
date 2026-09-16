@@ -1,18 +1,17 @@
 {
   "meta": {
-    "version": "1.1.0",
-    "lastUpdated": "2026-02-09"
+    "version": "2.0.0",
+    "lastUpdated": "2026-09-16"
   },
   "basics": {
-    "name": "Victor Abizeyimana",
-    "headline": "Senior Software Engineer",
-    "summary": "A problem-solving software engineer with over 8 years of experience developing financial systems in a variety of industries, primarily private companies in finance and government entities. I am driven to collaborate with remote and local teams all over the world to design, build, and continuously improve processes using scalable solutions. Simply, I Collaborate, Design, Build, and Improve.",
+    "name": "Abizeyimana Victor Iradukunda",
+    "headline": "Engineering Manager · Platform Engineering · Digital Infrastructure",
+    "summary": "Engineering Manager and platform engineering leader with 11+ years building digital infrastructure for government and enterprise service digitization. I translate policy, operational, and integration requirements into secure, configurable transaction platforms while leading engineering teams and remaining hands-on with architecture, distributed systems, workflow automation, production reliability, and AI-assisted delivery.",
     "email": "svicky.shema@gmail.com",
     "phone": "+250 789 032 290",
     "location": "Kigali, Rwanda",
     "url": "https://victor-abz.com",
-    "avatar": "/victor_Abz.jpeg",
-    "resumePdf": "/CV-Victor-Abizeyimana.pdf",
+    "avatar": "/avatar.webp",
     "blog": {
       "url": "https://blog.victor-abz.com",
       "host": "blog.victor-abz.com"
@@ -25,7 +24,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "victor-abizeyimana",
+        "username": "victor-abizeyimana-6a710910a",
         "url": "https://www.linkedin.com/in/victor-abizeyimana-6a710910a/"
       },
       {
@@ -35,29 +34,73 @@
       }
     ]
   },
+  "resume": {
+    "label": "Default Resume",
+    "externalUrl": "",
+    "fallbackPdf": "/CV-Victor-Abizeyimana.pdf",
+    "previewImage": "/CV-Victor-Abizeyimana-preview.webp",
+    "sourceUrl": "https://resume.victor-abz.com",
+    "lastUpdated": "2026-09-15"
+  },
+  "impact": [
+    {
+      "value": "75",
+      "label": "live digital services",
+      "detail": "Government and enterprise delivery portfolio"
+    },
+    {
+      "value": "25+",
+      "label": "production launches",
+      "detail": "Services digitized and taken live"
+    },
+    {
+      "value": ">99%",
+      "label": "API failure reduction",
+      "detail": "Measured platform-reliability improvement"
+    },
+    {
+      "value": "10+",
+      "label": "engineers trained",
+      "detail": "Four-week engineering intern programme"
+    }
+  ],
+  "featured": [
+    {
+      "title": "What forward deployed engineering is teaching us about shipping services that work",
+      "description": "Irembo TechTalk on connecting discovery, executable prototypes, delivery, release, and stabilization.",
+      "url": "https://www.youtube.com/watch?v=vmRy_lwTkuk",
+      "type": "Talk"
+    }
+  ],
   "work": [
+    {
+      "company": "Irembo",
+      "position": "Engineering Manager",
+      "url": "https://irembo.com",
+      "startDate": "2025-09",
+      "endDate": "",
+      "context": "Kigali City, Rwanda · Full-time · Hybrid",
+      "summary": "Lead multiple engineering teams delivering digital infrastructure for government and enterprise services across workflow automation, systems integration, data migration, and production reliability.",
+      "highlights": [
+        "Directed the digitization and production launch of 25+ government and enterprise services, then scaled change delivery and operational support across 75 live digital services",
+        "Made integrations easier to configure and operate through idempotent configuration imports, scheduled jobs with run history and recovery controls, endpoint discovery, and capability-based access control",
+        "Strengthened platform stability through event-processing improvements, bounded PostgreSQL retention, trace propagation, failure handling, and a measured API failure-rate reduction of more than 99%",
+        "Implemented low-code/no-code form and workflow automation with schema validation, Model Context Protocol integrations, automated AI evaluation, and deployment automation"
+      ]
+    },
     {
       "company": "Irembo",
       "position": "Senior Software Engineer",
       "url": "https://irembo.com",
       "startDate": "2024-03",
-      "endDate": "",
-      "summary": "Building products that meaningfully impact users at Rwanda's leading govtech platform.",
+      "endDate": "2025-09",
+      "context": "Rwanda · Full-time · Hybrid",
+      "summary": "Progressed from public-service platform delivery into reusable low-code/no-code infrastructure, then assumed engineering-lead scope before promotion in September 2025.",
       "highlights": [
-        "Building products that meaningfully impact users at scale"
-      ]
-    },
-    {
-      "company": "MUGANGA SACCO",
-      "position": "Director of ICT",
-      "url": "https://mugangasacco.rw",
-      "startDate": "2022-08",
-      "endDate": "2024-02",
-      "summary": "Led digital transformation of the first fully digital SACCO in Rwanda.",
-      "highlights": [
-        "Oversaw and participated in the development and deployment of mobile banking via USSD Code",
-        "Participated in the deployment of BNR Electronic Datawarehouse and oversaw daily reporting",
-        "Identified system weaknesses and developed cost-effective solutions"
+        "Built the first version of a low-code/no-code form and workflow automation platform with portable configuration reusable across environments",
+        "Delivered production workflows across identity, justice, education credentials, civil registration, and account security with zero post-release defects or incidents in the reviewed delivery record",
+        "Digitized 15+ business-registration services through configurable workflows, integrations, certificates, pricing rules, and client-driven changes",
+        "Built reusable containerized deployment tooling and demonstration stacks for international solution workshops, and trained 10+ engineering interns in four weeks"
       ]
     },
     {
@@ -65,28 +108,39 @@
       "position": "Technical Support Consultant",
       "url": "https://www.worldbank.org/",
       "startDate": "2022-02",
-      "endDate": "",
-      "summary": "Supported the deployment and piloting of the Grievance Redress Mechanism system across Rwanda.",
+      "endDate": "2025-06",
+      "context": "Kigali City, Rwanda · Contract · Concurrent engagement",
+      "summary": "Customized and deployed grievance-redress systems across digital-government, public-health, and infrastructure programmes.",
       "highlights": [
-        "Conducted GRM pilot preparation across the country and evaluated the pilot's progress through weekly reports",
-        "Supported customization and deployment of the GRM system, including regression tests, usability tests, and reporting",
-        "Delivered customized training to local audiences with/without IT skills in remote areas of Rwanda",
-        "Developed training materials for various categories of end-users"
+        "Led pilot preparation, regression and usability testing, weekly technical reporting, and translation of end-user feedback into implementation improvements",
+        "Adapted platform configuration to different operating environments and developed localized training materials",
+        "Built technical capacity among technical and nontechnical users, including teams in remote communities"
       ]
     },
     {
-      "company": "Muganga SACCO",
+      "company": "MUGANGA SACCO",
+      "position": "Director of Information Communication Technology",
+      "url": "https://mugangasacco.rw",
+      "startDate": "2022-08",
+      "endDate": "2024-02",
+      "context": "Kigali City, Rwanda · Full-time · Hybrid",
+      "summary": "Led ICT architecture and delivery across digital banking, regulatory reporting, infrastructure, cybersecurity, and disaster recovery.",
+      "highlights": [
+        "Led the rollout of USSD mobile banking and regulatory electronic data-warehouse reporting, expanding digital access and strengthening daily compliance reporting",
+        "Directed system and vendor improvements across core banking and digital channels while balancing operational needs, cost, delivery risk, and regulatory requirements"
+      ]
+    },
+    {
+      "company": "MUGANGA SACCO",
       "position": "ICT Manager",
       "url": "https://mugangasacco.rw",
       "startDate": "2021-07",
       "endDate": "2022-07",
-      "summary": "Managed IT strategy, infrastructure, and software development for a healthcare SACCO.",
+      "context": "Kigali City, Rwanda · Full-time · Hybrid",
+      "summary": "Owned IT strategy, infrastructure, operating controls, and digital-financial-service implementation.",
       "highlights": [
-        "Preparation of IT strategy for 2022–2024 and Digital financial service plan",
-        "Setup IT Infrastructure and formulated internal IT procedures and strategies",
-        "Successful deployment of Internet web portal featuring loan origination and members KYC management",
-        "Designed, tested and deployed a loan appraisal module for primary evaluation of loans",
-        "Management of core banking software project implementation by liaising with external vendors"
+        "Authored the 2022–2024 IT and digital-financial-services strategy and established infrastructure, cybersecurity controls, operating procedures, and disaster-recovery policies",
+        "Delivered an internet-banking portal covering member KYC, loan origination, and loan appraisal, and managed external vendors to complete the core-banking implementation on time and within budget"
       ]
     },
     {
@@ -95,12 +149,11 @@
       "url": "https://benefactors.io",
       "startDate": "2020-07",
       "endDate": "2022-02",
-      "summary": "Led product development and mentored junior developers at a fintech company.",
+      "context": "Kigali City, Rwanda · Contract",
+      "summary": "Led junior engineers and improved digital-financial applications, delivery quality, and shared engineering standards.",
       "highlights": [
-        "Supervised and led a team of 5 junior software engineers during development of digital financial software, resulting in 33% revenue increase in 6 months",
-        "Documented all supported systems and applications to effectively train team members",
-        "Wrote efficient, reliable, and easy to maintain code, collaborating with developers",
-        "Acted as a mentor to junior developers, contributing to company standards and best practices"
+        "Led five junior engineers through an application upgrade and rollout that improved user experience and contributed to a 33% revenue increase within six months",
+        "Improved maintainability and knowledge transfer through system documentation, defect resolution, user support, and mentoring"
       ]
     },
     {
@@ -109,26 +162,11 @@
       "url": "https://andela.com",
       "startDate": "2019-11",
       "endDate": "2020-04",
-      "summary": "Built travel management and authentication systems using microservice architecture.",
+      "context": "Kigali, Rwanda · Full-time",
+      "summary": "Built backend and frontend services for a travel-management platform and mentored engineers across East Africa.",
       "highlights": [
-        "Developed a system for managing company travel involving requests, budget preparation, and approval",
-        "Implemented scalable user authentication and authorization with OAuth2 and custom JWT",
-        "Developed a microservice architecture in Node.js and React for backend service communication",
-        "Mentored next generation of software engineers through YouTube and organized events"
-      ]
-    },
-    {
-      "company": "Inepu Ltd",
-      "position": "Co-Founder & CTO",
-      "url": "https://inepu.com",
-      "startDate": "2015-07",
-      "endDate": "2020-12",
-      "summary": "Co-founded an ed-tech platform and built a learning management system from the ground up.",
-      "highlights": [
-        "Led complete overhaul of flagship SaaS Hosting product, resulting in 25% increase in customer satisfaction and 14% increase in sales",
-        "Conceptualized, designed, and developed a Learning Management System with integrated lesson plan and certification",
-        "Designed, deployed, and monitored a software hosting system managing more than 5TB of traffic daily",
-        "Initiated and coordinated implementation of new data security measures across company IT infrastructure"
+        "Built a Node.js and React microservice architecture covering travel requests, budget preparation, and approvals",
+        "Implemented OAuth 2.0 and custom JSON Web Token authentication and authorization"
       ]
     },
     {
@@ -137,130 +175,132 @@
       "url": "",
       "startDate": "2017-01",
       "endDate": "2019-10",
-      "summary": "Provided software development, design, and digital marketing solutions.",
+      "context": "Kigali City, Rwanda · Full-time",
+      "summary": "Delivered software, design, and visual-communication solutions for agencies, studios, and direct clients.",
       "highlights": [
-        "Extended solutions to various agencies and design studios in software development and design",
-        "Wrote functional and design specifications for software products and developed prototypes",
-        "Managed software development life cycle and conducted risk assessment and mitigation",
-        "Social media management including SEO, improving the company's ranking on Google"
+        "Produced functional and design specifications, prototypes, and unit tests while managing software-delivery risks",
+        "Managed graphic-design, social-media, and search-engine-optimization initiatives that improved international branch visibility"
+      ]
+    },
+    {
+      "company": "Inepu Ltd",
+      "position": "Co-Founder & CTO",
+      "url": "https://inepu.com",
+      "startDate": "2015-07",
+      "endDate": "2020-12",
+      "context": "Rwanda · Part-time",
+      "summary": "Led SaaS hosting and learning-management products from architecture through operation.",
+      "highlights": [
+        "Led a SaaS hosting-product overhaul that contributed to a 25% increase in customer satisfaction and a 14% sales increase within three months",
+        "Designed and developed a learning-management system with integrated lesson planning and certification",
+        "Designed and operated hosting infrastructure handling more than 5 TB of daily traffic and strengthened company-wide data-security controls"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Internet Banking Web Portal",
+      "name": "Integration Platform Engineering",
+      "company": "Irembo",
+      "date": "2024–Present",
+      "url": "https://irembo.com",
+      "summary": "Reusable middleware capabilities that make API integrations easier to configure, govern, observe, and recover.",
+      "highlights": [
+        "Implemented idempotent endpoint-configuration imports, scheduled jobs, run history, recovery controls, endpoint search, and capability-based access control",
+        "Improved runtime behavior with non-blocking event consumers, configurable fan-out, optimistic-lock retries, tracing, log masking, and explicit mapping-failure handling"
+      ],
+      "tags": ["Java", "Spring Boot", "Angular", "TypeScript", "Apache Pulsar", "Kafka"]
+    },
+    {
+      "name": "Government & Enterprise Service Digitization",
+      "company": "Irembo",
+      "date": "2024–Present",
+      "url": "https://irembo.com",
+      "summary": "Configurable digital-service delivery spanning forms, rules, workflows, integrations, certificates, payments, and notifications.",
+      "highlights": [
+        "Directed 25+ service launches and engineering support across a portfolio of 75 live services",
+        "Built low-code/no-code capabilities and portable configuration that reduce repetitive implementation work across environments"
+      ],
+      "tags": ["Digital Public Infrastructure", "Low-Code", "Workflow Automation", "Systems Integration"]
+    },
+    {
+      "name": "Platform Reliability & Distributed Systems",
+      "company": "Irembo",
+      "date": "2024–Present",
+      "url": "https://irembo.com",
+      "summary": "Production-reliability improvements for event-driven workloads, data retention, observability, and failure recovery.",
+      "highlights": [
+        "Re-engineered event processing and introduced bounded PostgreSQL retention to protect platform stability under sustained workloads",
+        "Reduced a high-volume API failure rate by more than 99% and improved cross-service diagnosis through trace propagation and structured failure handling"
+      ],
+      "tags": ["Distributed Systems", "PostgreSQL", "Reliability", "Observability"]
+    },
+    {
+      "name": "Grievance-Redress Digital Systems",
+      "company": "The World Bank",
+      "date": "2022–2025",
+      "url": "https://www.worldbank.org/",
+      "summary": "Configurable grievance-redress implementations for digital-government, public-health, and infrastructure programmes.",
+      "highlights": [
+        "Adapted, tested, and deployed systems across differing operating environments",
+        "Converted field feedback into implementation improvements and trained technical and nontechnical users"
+      ],
+      "tags": ["GovTech", "Implementation", "Quality Engineering", "Capacity Building"]
+    },
+    {
+      "name": "Digital Banking & Core Systems",
       "company": "MUGANGA SACCO",
-      "date": "2021–Present",
-      "url": "https://online.mugangasacco.rw",
-      "summary": "Web portal for healthcare SACCO managing savings, loan origination, and member KYC for 10,000+ medical professionals.",
+      "date": "2021–2024",
+      "url": "https://mugangasacco.rw",
+      "summary": "Digital-financial infrastructure covering mobile banking, internet banking, core systems, regulatory reporting, and operational resilience.",
       "highlights": [
-        "Platform manages monthly savings and loans for healthcare professionals with around 5 Billion Rwf in savings",
-        "Designed, tested and supervised deployment of loan appraisal module for primary loan evaluation",
-        "Coordinated implementation and supervision of software design specifications"
+        "Led USSD and internet-banking delivery across member KYC, loan origination, appraisal, and digital access",
+        "Managed core-banking vendors, reporting infrastructure, cybersecurity controls, and disaster-recovery planning"
       ],
-      "tags": ["React", "Node.js", "PostgreSQL", "Fintech"]
+      "tags": ["Fintech", "USSD", "System Architecture", "Vendor Management"]
     },
     {
-      "name": "Rosling — Loan Management System",
-      "company": "BeneFactors",
-      "date": "2020–2021",
-      "url": "https://benefactors.io/",
-      "summary": "Robust financial management system for a non-deposit financial institution managing 5.6M+ Rwf.",
+      "name": "Forward Deployed Engineering TechTalk",
+      "company": "Irembo",
+      "date": "May 2026",
+      "url": "https://www.youtube.com/watch?v=vmRy_lwTkuk",
+      "summary": "A public talk and live demonstration on shipping operable services through discovery, executable prototypes, technical design, delivery, release, and stabilization.",
       "highlights": [
-        "Built modules for loan applications management, disbursement, monitoring, and fees calculation",
-        "Developed and deployed AI robot to track loan applicant performance on external systems (CRB, RPPA)",
-        "Migrated large datasets from Google Sheets-based system without business disruption"
+        "Presented a customer-facing product-engineering model for turning operational requirements into reliable services",
+        "Demonstrated visual service configuration and reusable platform delivery"
       ],
-      "tags": ["React", "Node.js", "PostgreSQL", "AI/ML"]
-    },
-    {
-      "name": "Virtual Sales Data Controller",
-      "company": "BeneFactors",
-      "date": "2021–2022",
-      "url": "",
-      "summary": "VSDC invoicing system enabling SMEs to comply with EBM tax regulations.",
-      "highlights": [
-        "Led team of 5 developers through design and deployment using Agile methodology",
-        "Launched cost-effective invoicing tool providing BeneFactors with SME sales history for loan prequalification"
-      ],
-      "tags": ["React", "Node.js", "Agile", "Fintech"]
-    },
-    {
-      "name": "Midas Loan Dashboards",
-      "company": "PesaChoice",
-      "date": "2021",
-      "url": "https://www.pesachoice.com/",
-      "summary": "Feature-rich dashboard with real-time business metrics and predictive analytics.",
-      "highlights": [
-        "Developed rich dashboards for loan performance and portfolio management in real-time",
-        "Implemented predictive analytics to predict trends based on historical data for early warning system"
-      ],
-      "tags": ["React", "Data Visualization", "Predictive Analytics"]
-    },
-    {
-      "name": "Loan Management System",
-      "company": "PesaChoice",
-      "date": "2021",
-      "url": "https://www.pesachoice.com/",
-      "summary": "System extending loans to employees through existing payroll integration.",
-      "highlights": [
-        "Led team to design, deploy and maintain the system using agile methodology",
-        "Automated loan origination, processing, and payment supervision",
-        "Implemented testing with Chai, Mocha, Jest and CI/CD deployments"
-      ],
-      "tags": ["Node.js", "React", "CI/CD", "Testing"]
-    },
-    {
-      "name": "ML-Based Credit Scoring",
-      "company": "PesaChoice",
-      "date": "2021",
-      "url": "https://www.pesachoice.com/",
-      "summary": "ML-based credit scoring system for selective allocation of credit based on statistical analysis.",
-      "highlights": [
-        "System identifies high-risk customers with ~89% accuracy",
-        "Increased weekly customer throughput by more than 45% since deployment"
-      ],
-      "tags": ["Python", "Machine Learning", "Fintech", "Data Science"]
+      "tags": ["Technical Leadership", "Public Speaking", "Product Engineering", "GovTech"]
     }
   ],
   "skills": [
     {
-      "category": "Frontend",
-      "items": ["React.js", "TypeScript", "JavaScript", "Next.js", "AngularJS", "Vue.js", "Tailwind CSS", "HTML5", "CSS/SASS"]
+      "category": "Engineering Leadership",
+      "items": ["Engineering Management", "Team Leadership", "Mentoring", "Engineering Strategy", "Performance Management", "Capacity Planning", "Stakeholder Management"]
     },
     {
-      "category": "Backend",
-      "items": ["Node.js", "Python", "Java", "REST APIs", "GraphQL", "Distributed Systems"]
+      "category": "Architecture & Platforms",
+      "items": ["Platform Engineering", "System Design", "Solution Architecture", "Digital Public Infrastructure", "Distributed Systems", "Event-Driven Architecture", "Low-Code/No-Code", "Workflow Automation"]
     },
     {
-      "category": "Databases",
-      "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
+      "category": "Backend & Integration",
+      "items": ["Java", "Spring Boot", "Node.js", "TypeScript", "REST APIs", "Systems Integration", "PostgreSQL", "Redis", "Apache Pulsar", "Apache Kafka", "OAuth 2.0", "Keycloak"]
     },
     {
-      "category": "DevOps & Tools",
-      "items": ["Docker", "CI/CD", "Git", "DevOps", "Nginx", "Linux"]
+      "category": "Frontend Engineering",
+      "items": ["Angular", "React", "TypeScript", "JavaScript", "HTML", "CSS", "Accessible UI"]
     },
     {
-      "category": "Mobile",
-      "items": ["Flutter", "React Native"]
+      "category": "Infrastructure & Reliability",
+      "items": ["Docker", "Kubernetes", "GitLab CI/CD", "Observability", "Incident Management", "Performance Optimization", "Production Reliability", "Nginx", "Linux"]
     },
     {
-      "category": "AI & Data",
-      "items": ["Artificial Intelligence", "NLP", "Machine Learning", "Data Science"]
-    },
-    {
-      "category": "Management",
-      "items": ["Agile Methodologies", "Project Management", "Product Development", "Change Management", "Strategy"]
-    },
-    {
-      "category": "Design",
-      "items": ["UI/UX Design", "User Experience", "User Interface Design", "Adobe Creative Suite"]
+      "category": "AI-Assisted Engineering",
+      "items": ["Model Context Protocol", "AI-Assisted Development", "Automated Evaluation", "Quality Engineering", "Python", "Machine Learning"]
     }
   ],
   "certifications": [
     {
       "name": "CS50's Introduction to Artificial Intelligence with Python",
-      "authority": "CS50",
+      "authority": "Harvard University",
       "date": "2024-09",
       "url": "https://certificates.cs50.io/faed3b95-003e-493c-af0a-9b0361ab6729.pdf?size=A4"
     },
@@ -269,35 +309,29 @@
       "authority": "Andela",
       "date": "2019-09",
       "url": ""
-    },
-    {
-      "name": "Project Management",
-      "authority": "Global Enterprise Experience",
-      "date": "2017-01",
-      "url": ""
     }
   ],
   "languages": [
+    { "language": "Kinyarwanda", "fluency": "Native" },
     { "language": "English", "fluency": "Professional" },
-    { "language": "French", "fluency": "Intermediate" },
-    { "language": "Kinyarwanda", "fluency": "Native" }
+    { "language": "French", "fluency": "Intermediate" }
   ],
   "education": [
     {
       "institution": "Liverpool John Moores University",
       "url": "https://www.ljmu.ac.uk",
-      "area": "Computing and Information Systems",
-      "studyType": "MSc",
-      "startDate": "2022",
-      "endDate": "2024"
+      "area": "Computer Science",
+      "studyType": "Master's",
+      "startDate": "",
+      "endDate": "Ongoing"
     },
     {
       "institution": "University of Rwanda",
       "url": "https://ur.ac.rw",
       "area": "Business Administration",
       "studyType": "Bachelor's",
-      "startDate": "2014",
-      "endDate": "2018"
+      "startDate": "",
+      "endDate": ""
     }
   ]
 }

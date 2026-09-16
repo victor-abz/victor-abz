@@ -7,6 +7,7 @@ import AboutPage from '@/pages/AboutPage'
 const ExperiencePage = lazy(() => import('@/pages/ExperiencePage'))
 const ProjectsPage = lazy(() => import('@/pages/ProjectsPage'))
 const SkillsPage = lazy(() => import('@/pages/SkillsPage'))
+const ResumePage = lazy(() => import('@/pages/ResumePage'))
 const BlogPage = lazy(() => import('@/pages/BlogPage'))
 const ContactPage = lazy(() => import('@/pages/ContactPage'))
 
@@ -21,6 +22,7 @@ export default function App() {
               <Route path="experience" element={<ExperiencePage />} />
               <Route path="projects" element={<ProjectsPage />} />
               <Route path="skills" element={<SkillsPage />} />
+              <Route path="resume" element={<ResumePage />} />
               <Route path="blog" element={<BlogPage />} />
               <Route path="contact" element={<ContactPage />} />
             </Route>

@@ -1,11 +1,20 @@
-import { GraduationCap, Languages, Award, ExternalLink } from 'lucide-react'
-import { useBasics, useLanguages, useEducation, useCertifications } from '@/hooks/useResumeData'
+import { GraduationCap, Languages, Award, ExternalLink, BarChart3, Mic2 } from 'lucide-react'
+import {
+  useBasics,
+  useLanguages,
+  useEducation,
+  useCertifications,
+  useImpact,
+  useFeatured,
+} from '@/hooks/useResumeData'
 
 export function AboutSection() {
   const basics = useBasics()
   const languages = useLanguages()
   const education = useEducation()
   const certifications = useCertifications()
+  const impact = useImpact()
+  const featured = useFeatured()
 
   return (
     <div className="space-y-8">
@@ -16,6 +25,49 @@ export function AboutSection() {
           {basics.summary}
         </p>
       </section>
+
+      <section>
+        <div className="flex items-center gap-2 mb-4">
+          <BarChart3 size={20} className="text-[var(--color-brand)]" />
+          <h3 className="text-lg font-semibold">Selected Impact</h3>
+        </div>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+          {impact.map((item) => (
+            <div key={item.label} className="p-4 rounded-xl bg-[var(--color-card-inner)]">
+              <div className="text-2xl font-bold text-[var(--color-brand)]">{item.value}</div>
+              <div className="font-medium text-sm mt-1">{item.label}</div>
+              <div className="text-xs text-[var(--color-text-secondary)] mt-1">{item.detail}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {featured.map((item) => (
+        <section key={item.url}>
+          <div className="flex items-center gap-2 mb-4">
+            <Mic2 size={20} className="text-[var(--color-brand)]" />
+            <h3 className="text-lg font-semibold">Featured {item.type}</h3>
+          </div>
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block p-5 rounded-xl bg-[var(--color-card-inner)] hover:shadow-md transition-shadow"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <div className="font-semibold group-hover:text-[var(--color-brand)] transition-colors">
+                  {item.title}
+                </div>
+                <p className="text-sm text-[var(--color-text-secondary)] mt-2">
+                  {item.description}
+                </p>
+              </div>
+              <ExternalLink size={16} className="shrink-0 text-[var(--color-text-secondary)]" />
+            </div>
+          </a>
+        </section>
+      ))}
 
       <div className="grid md:grid-cols-2 gap-8">
         {/* Education */}
@@ -39,9 +91,11 @@ export function AboutSection() {
                 >
                   {edu.institution}
                 </a>
-                <div className="text-sm text-[var(--color-text-secondary)] mt-1">
-                  {edu.startDate} — {edu.endDate}
-                </div>
+                {(edu.startDate || edu.endDate) && (
+                  <div className="text-sm text-[var(--color-text-secondary)] mt-1">
+                    {[edu.startDate, edu.endDate].filter(Boolean).join(' — ')}
+                  </div>
+                )}
               </div>
             ))}
           </div>

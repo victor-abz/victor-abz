@@ -47,6 +47,10 @@ export function ExperienceSection() {
                   </span>
                 </div>
 
+                <div className="text-xs text-[var(--color-text-secondary)] mb-3">
+                  {job.context}
+                </div>
+
                 <p className="text-sm text-[var(--color-text-secondary)] mb-3">
                   {job.summary}
                 </p>
