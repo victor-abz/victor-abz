@@ -15,13 +15,6 @@ export function ResumeSection() {
             <FileText size={22} className="text-[var(--color-brand)]" />
             <h2 className="text-2xl font-bold">Résumé</h2>
           </div>
-          <p className="text-sm text-[var(--color-text-secondary)] mt-2">
-            {resume.label} · Updated {new Date(`${resume.lastUpdated}T00:00:00`).toLocaleDateString('en-US', {
-              month: 'long',
-              day: 'numeric',
-              year: 'numeric',
-            })}
-          </p>
         </div>
 
         <div className="flex flex-wrap gap-2">
